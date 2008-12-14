@@ -24,7 +24,7 @@ module Ebim
       def initialize(jid,name,options={})
         @name = name
         @jid = jid
-        @group = options[:groups] || []
+        @groups = options[:groups] || []
         @resources = {}
       end
 

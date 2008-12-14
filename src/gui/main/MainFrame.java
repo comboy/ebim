@@ -11,6 +11,7 @@
 
 package gui.main;
 
+import gui.main.contact_partial.ContactPartialPanel;
 import javax.swing.tree.TreeCellRenderer;
 
 /**
@@ -22,8 +23,8 @@ public class MainFrame extends javax.swing.JFrame {
     /** Creates new form MainFrame */
     public MainFrame() {
         initComponents();
-        TreeCellRenderer renderer = new ContactPanel();
-        contacts_tree.setCellRenderer(renderer);
+        //TreeCellRenderer renderer = new ContactPartial();
+        //contacts_tree.setCellRenderer(renderer);
     }
 
     /** This method is called from within the constructor to

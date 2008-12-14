@@ -27,7 +27,7 @@ Dir.glob(File.expand_path(File.dirname(__FILE__) + "/../lib/ruby/*/lib")).each d
 end
 
 puts "AAAAAAA"
-Dir.glob(File.expand_path(File.dirname(__FILE__) + "/**/**")).each do |directory|
+Dir.glob(File.expand_path(File.dirname(__FILE__) + "/**/**/**")).each do |directory|
   puts "fok #{directory}"
   $LOAD_PATH << directory unless directory =~ /\.\w+$/ #File.directory? is broken in current JRuby for dirs inside jars
 end
@@ -38,7 +38,12 @@ begin
   require 'ebim'
   require 'gui/main/main_controller'
   puts "aaa"
-  MainController.instance.open
+  c = MainController.create_instance
+  c.open
+  puts "sssssssssssss"
+  puts c.class
+  puts c.view.class
+  puts c.view.get_field_value("java_window").class
   Ebim::Base.new
   puts "wwaa"
   # Your app logic here, i.e. YourController.instance.open

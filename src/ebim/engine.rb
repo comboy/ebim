@@ -27,7 +27,7 @@ module Ebim
         items = []
         roster.entries.each do |entry|
           contact = Base::Contact.new entry.user, entry.name, :groups => entry.groups.map{|g| g.name}
-
+          items << contact
         end
         @base.roster_items = items
 
