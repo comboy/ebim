@@ -1,3 +1,5 @@
+require 'logger'
+
 module Ebim
   class Base
 
@@ -5,7 +7,7 @@ module Ebim
     attr_accessor :config
 
     def initialize
-      #@logger = Logger.new File.join("test.log")
+      @logger = ::Logger.new "/comboy/projects/ebim/ebim.log"
       #@config = Config.new self
       @roster = Roster.new
       @engine = Engine.new self

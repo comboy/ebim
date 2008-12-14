@@ -31,9 +31,26 @@ module Ebim
         end
         @base.roster_items = items
 
+      roster.add_roster_listener MyRosterListener.new
+
         @chat = conn1.chat_manager.add_chat_listener MyChatListener.new
 
+
+
+
     end
+
+  class MyRosterListener
+    include org.jivesoftware.smack.RosterListener
+
+    def presence_changed(presence)
+      puts "PRESENCE"
+      puts "type = #{presence.type} (#{presence.type}, status = #{presence.status}"
+      puts "from = #{presence.from} (#{presence.from.class})"
+      pp presence
+      @base.item_presence_change(presence.from,presence.type.to_s,presence.status)
+    end
+  end
 
   class MyChatListener
     include org.jivesoftware.smack.ChatManagerListener

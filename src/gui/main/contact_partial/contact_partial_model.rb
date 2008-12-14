@@ -1,7 +1,7 @@
 class ContactPartialModel
   attr_accessor :contact
 
-  def name
+  def label
     #"watta"
     pp @contact
 
@@ -11,11 +11,15 @@ class ContactPartialModel
       "-"
     else
       puts @contact.name
-      @contact.name
+      "<html><b>#{@contact.name}</b>#{(status.empty? ? '' : "<br><i>#{status}</i>")}"
     end
   end
 
   def presence
-    :whatevah
+    @contact.presence
+  end
+
+  def status
+    @contact.status
   end
 end
