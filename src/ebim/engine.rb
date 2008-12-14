@@ -3,6 +3,8 @@ module Ebim
 
   class Engine
 
+    attr_accessor :base
+
     def initialize(base)
       @base = base
     end
@@ -15,6 +17,7 @@ module Ebim
 
         conn1 = org.jivesoftware.smack.XMPPConnection.new(config);
         puts "connect"
+        debug "cccc"
         conn1.connect
         org.jivesoftware.smack.SASLAuthentication.supportSASLMechanism("PLAIN", 0);
         puts "login"
@@ -31,7 +34,7 @@ module Ebim
         end
         @base.roster_items = items
 
-      roster.add_roster_listener MyRosterListener.new
+      roster.add_roster_listener MyRosterListener.new self
 
         @chat = conn1.chat_manager.add_chat_listener MyChatListener.new
 
@@ -43,12 +46,21 @@ module Ebim
   class MyRosterListener
     include org.jivesoftware.smack.RosterListener
 
+    def initialize(engine)
+      puts "my roster listener"
+      @base = engine.base
+    end
+
     def presence_changed(presence)
+      #debug "presence received #{presence}"                                                                                                                                                                                                                                                                                                                                                                                                                                                               }"
       puts "PRESENCE"
-      puts "type = #{presence.type} (#{presence.type}, status = #{presence.status}"
+      puts "type = #{presence.type} (#{presence.mode}, status = #{presence.status}"
       puts "from = #{presence.from} (#{presence.from.class})"
       pp presence
-      @base.item_presence_change(presence.from,presence.type.to_s,presence.status)
+      puts "hmm"
+      puts "sraj"
+      @base.item_presence_change(presence.from,presence.mode.to_s,presence.status.to_s)
+
     end
   end
 
@@ -59,6 +71,7 @@ module Ebim
       puts chat
     end
   end
+  
 
   # Implements MessageListener to print message body to STDOUT
   class StdoutMessageListener
@@ -70,7 +83,9 @@ module Ebim
   end
 
 
-  
+  def debug(text)
+    base.debug("Engine: #{text}")
+  end
 
   end
 

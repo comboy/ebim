@@ -12,10 +12,16 @@ class MainView < ApplicationView
   #  @group_handles = {}
   #end
 
+  attr_accessor :contact_handles
+
+  #def load
+  # contacts_tree.cell_renderer = model.renderer
+  #end
+
   def build_tree_nodes(contacts)
 
     # initializer would be nice
-    @group_handles ||= {}
+    @group_handles = {}
     @contact_handles = Hash.new []
 
     root = DefaultMutableTreeNode.new("Jabber", true)

@@ -8,6 +8,8 @@ module Ebim
 
     def initialize
       @logger = ::Logger.new "/comboy/projects/ebim/ebim.log"
+
+      debug "dupa"
       #@config = Config.new self
       @roster = Roster.new
       @engine = Engine.new self
@@ -44,11 +46,16 @@ module Ebim
     end
 
     def item_presence_change(jid,presence,status)
+      puts "TTTTTTTTTTTt"
+      #return
       debug("item presence change: #{jid} | #{presence} | #{status}")
       pure_jid, resource = jid.split('/')
       item = @roster[pure_jid]
       item.update_presence(resource,presence,status)
+      puts "go gui"
       @gui.item_update item
+#      @gui.temp_easy_update @roster.contacts
+#      @gui.set_roster_items @roster.contacts
     end
 
     def set_presence(presence,status='')

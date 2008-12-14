@@ -11,6 +11,6 @@ class MainModel
 
   def renderer
     #i = ContactPartielController.
-    ContactPartialRenderer.new
+    @renderer ||= ContactPartialRenderer.new
   end
 end

@@ -38,7 +38,7 @@ begin
   require 'ebim'
   require 'gui/main/main_controller'
   puts "aaa"
-  c = MainController.create_instance
+  c = MainController.instance
   c.open
   puts "sssssssssssss"
   puts c.class

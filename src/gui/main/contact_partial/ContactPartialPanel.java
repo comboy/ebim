@@ -53,16 +53,11 @@ public class ContactPartialPanel extends javax.swing.JPanel{
     this.setLayout(layout);
     layout.setHorizontalGroup(
       layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-        .addContainerGap()
-        .addComponent(name_label, javax.swing.GroupLayout.DEFAULT_SIZE, 142, Short.MAX_VALUE)
-        .addContainerGap())
+      .addComponent(name_label, javax.swing.GroupLayout.DEFAULT_SIZE, 190, Short.MAX_VALUE)
     );
     layout.setVerticalGroup(
       layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addGroup(layout.createSequentialGroup()
-        .addComponent(name_label)
-        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+      .addComponent(name_label, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 29, Short.MAX_VALUE)
     );
   }// </editor-fold>//GEN-END:initComponents
 
