@@ -1,4 +1,4 @@
-include_class "gui.main.contact_partial.ContactPartial"
+#include_class "gui.main.contact_partial.ContactPartial"
 require 'contact_partial/contact_partial_renderer'
 
 class MainModel
