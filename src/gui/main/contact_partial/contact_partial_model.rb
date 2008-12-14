@@ -1,7 +1,7 @@
 class ContactPartialModel
   attr_accessor :contact
 
-  def contact_name
+  def name
     #"watta"
     pp @contact
 
@@ -13,5 +13,9 @@ class ContactPartialModel
       puts @contact.name
       @contact.name
     end
+  end
+
+  def presence
+    :whatevah
   end
 end
