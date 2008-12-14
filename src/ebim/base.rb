@@ -5,7 +5,7 @@ module Ebim
     attr_accessor :config
 
     def initialize
-      @logger = Logger.new File.join("test.log")
+      #@logger = Logger.new File.join("test.log")
       #@config = Config.new self
       @roster = Roster.new
       @engine = Engine.new self
@@ -24,6 +24,8 @@ module Ebim
     end
 
     def roster_items=(items)
+      puts "set roster itmes"
+      pp items
       @roster.contacts = items
       @gui.set_roster_items @roster.contacts
     end

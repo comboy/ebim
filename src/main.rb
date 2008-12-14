@@ -1,6 +1,7 @@
 #===============================================================================
 # Much of the platform specific code should be called before Swing is touched.
 # The useScreenMenuBar is an example of this.
+puts "ATHUNETHNETOHSUETH"
 require 'rbconfig'
 require 'java'
 
@@ -18,24 +19,27 @@ end
 # End of platform specific code
 #===============================================================================
 
+puts "WWWWWWWWW"
 $LOAD_PATH.unshift File.dirname(__FILE__)
 Dir.glob(File.expand_path(File.dirname(__FILE__) + "/../lib/ruby/*/lib")).each do |directory|
   puts "dir #{directory}"
   $LOAD_PATH << directory unless directory =~ /\.\w+$/ #File.directory? is broken in current JRuby for dirs inside jars
 end
 
+puts "AAAAAAA"
 Dir.glob(File.expand_path(File.dirname(__FILE__) + "/**/**")).each do |directory|
+  puts "fok #{directory}"
   $LOAD_PATH << directory unless directory =~ /\.\w+$/ #File.directory? is broken in current JRuby for dirs inside jars
 end
 
 require 'manifest'
 
 begin
-  require 'gui/main/main_controller'
   require 'ebim'
-  Ebim::Base.new
+  require 'gui/main/main_controller'
   puts "aaa"
   MainController.instance.open
+  Ebim::Base.new
   puts "wwaa"
   # Your app logic here, i.e. YourController.instance.open
 rescue Exception => e

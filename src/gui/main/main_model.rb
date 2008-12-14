@@ -1,6 +1,8 @@
 class MainModel
 
-  def contacts_tree
-    
+  attr_accessor :contacts
+
+  def initialize
+    @contacts = []
   end
 end

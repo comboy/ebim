@@ -1,4 +1,4 @@
-require 'base64'
+#require 'base64'
 
 module Ebim
   class Base
@@ -19,12 +19,12 @@ module Ebim
 
       attr_accessor :jid
       attr_accessor :name
-      attr_accessor :group
+      attr_accessor :groups
 
       def initialize(jid,name,options={})
         @name = name
         @jid = jid
-        @group = options[:group]
+        @group = options[:groups] || []
         @resources = {}
       end
 

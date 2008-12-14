@@ -1,5 +1,5 @@
 #require 'rubygems'
-#require 'pp'
+require 'pp'
 
 module Ebim
   # $Id$
