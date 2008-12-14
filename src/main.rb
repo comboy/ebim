@@ -19,6 +19,11 @@ end
 #===============================================================================
 
 $LOAD_PATH.unshift File.dirname(__FILE__)
+Dir.glob(File.expand_path(File.dirname(__FILE__) + "/../lib/ruby/*/lib")).each do |directory|
+  puts "dir #{directory}"
+  $LOAD_PATH << directory unless directory =~ /\.\w+$/ #File.directory? is broken in current JRuby for dirs inside jars
+end
+
 Dir.glob(File.expand_path(File.dirname(__FILE__) + "/**/**")).each do |directory|
   $LOAD_PATH << directory unless directory =~ /\.\w+$/ #File.directory? is broken in current JRuby for dirs inside jars
 end
@@ -27,10 +32,15 @@ require 'manifest'
 
 begin
   require 'gui/main/main_controller'
+  require 'ebim'
+  Ebim::Base.new
+  puts "aaa"
   MainController.instance.open
+  puts "wwaa"
   # Your app logic here, i.e. YourController.instance.open
 rescue Exception => e
   $stderr << "Error in application:\n#{e}\n#{e.message}"
+  $stderr << "  Back: #{e.backtrace.join("\n")}"
   # Additional error handling goes here
   java.lang.System.exit(1)
 end

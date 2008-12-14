@@ -11,6 +11,8 @@
 
 package gui.main;
 
+import javax.swing.tree.TreeCellRenderer;
+
 /**
  *
  * @author comboy
@@ -20,6 +22,8 @@ public class MainFrame extends javax.swing.JFrame {
     /** Creates new form MainFrame */
     public MainFrame() {
         initComponents();
+        TreeCellRenderer renderer = new ContactPanel();
+        contacts_tree.setCellRenderer(renderer);
     }
 
     /** This method is called from within the constructor to
@@ -34,18 +38,19 @@ public class MainFrame extends javax.swing.JFrame {
     jToolBar1 = new javax.swing.JToolBar();
     jComboBox1 = new javax.swing.JComboBox();
     jScrollPane1 = new javax.swing.JScrollPane();
-    jTree1 = new javax.swing.JTree();
+    contacts_tree = new javax.swing.JTree();
     jMenuBar1 = new javax.swing.JMenuBar();
     jMenu1 = new javax.swing.JMenu();
     jMenu2 = new javax.swing.JMenu();
 
     setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+    setTitle("EBIM - Even Better Instant Messanger");
 
     jToolBar1.setRollover(true);
 
     jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-    jScrollPane1.setViewportView(jTree1);
+    jScrollPane1.setViewportView(contacts_tree);
 
     jMenu1.setText("File");
     jMenuBar1.add(jMenu1);
@@ -88,13 +93,13 @@ public class MainFrame extends javax.swing.JFrame {
     }
 
   // Variables declaration - do not modify//GEN-BEGIN:variables
+  private javax.swing.JTree contacts_tree;
   private javax.swing.JComboBox jComboBox1;
   private javax.swing.JMenu jMenu1;
   private javax.swing.JMenu jMenu2;
   private javax.swing.JMenuBar jMenuBar1;
   private javax.swing.JScrollPane jScrollPane1;
   private javax.swing.JToolBar jToolBar1;
-  private javax.swing.JTree jTree1;
   // End of variables declaration//GEN-END:variables
 
 }

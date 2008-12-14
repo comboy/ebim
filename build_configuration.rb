@@ -1,5 +1,5 @@
 configuration do |c|
-  c.project_name = 'ChangeMe'
+  c.project_name = 'Ebim'
   c.output_dir = 'package'
   c.main_ruby_file = 'main'
   c.main_java_file = 'org.rubyforge.rawr.Main'
