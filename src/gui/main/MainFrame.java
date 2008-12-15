@@ -23,6 +23,7 @@ public class MainFrame extends javax.swing.JFrame {
     /** Creates new form MainFrame */
     public MainFrame() {
         initComponents();
+        //contacts_tree.addTreeSelectionListener(new MyTreeSelectionListener())
         //TreeCellRenderer renderer = new ContactPartial();
         //contacts_tree.setCellRenderer(renderer);
     }
@@ -51,6 +52,7 @@ public class MainFrame extends javax.swing.JFrame {
 
     jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
+    contacts_tree.setRootVisible(false);
     jScrollPane1.setViewportView(contacts_tree);
 
     jMenu1.setText("File");
@@ -91,6 +93,10 @@ public class MainFrame extends javax.swing.JFrame {
                 new MainFrame().setVisible(true);
             }
         });
+    }
+
+    public javax.swing.JTree jebaneDrzewko() {
+        return contacts_tree;
     }
 
   // Variables declaration - do not modify//GEN-BEGIN:variables

@@ -1,10 +1,12 @@
-include_class javax.swing.tree.DefaultMutableTreeNode
-
+require 'main_frame_class'
 class MainView < ApplicationView
-  set_java_class 'gui.main.MainFrame'
+  #set_java_class 'gui.main.MainFrame'
+  set_class 'MainFrameClass'
 
-  map :view => "contacts_tree.model", :model => 'contacts', :using => [:build_tree_nodes, nil]
+  map :view => "contacts_tree.model", :model => 'tree_model'#, :using => [:build_tree_nodes, nil]
   map :view => "contacts_tree.cell_renderer", :model => 'renderer'
+  map :view => "contacts_tree.selection_rows", :model => :selection_path#, :using => [:one,:two]
+  #map("contacts_tree.selection_rows").to(:seloction_path)
 #  map :view => "photos_tree.model.root.user_object", :model => :search_terms, :using => [:default, nil]
 
   #def initialize
@@ -18,34 +20,8 @@ class MainView < ApplicationView
   # contacts_tree.cell_renderer = model.renderer
   #end
 
-  def build_tree_nodes(contacts)
-
-    # initializer would be nice
-    @group_handles = {}
-    @contact_handles = Hash.new []
-
-    root = DefaultMutableTreeNode.new("Jabber", true)
-    contacts.each do |contact|
-      if contact.groups.empty?#nil? || contact.groups.empty?
-        puts "no contact groups"
-      else
-        contact.groups.each do |group|
-          if @group_handles[group]
-            #
-          else
-            group_item = DefaultMutableTreeNode.new(group, true)
-            @group_handles[group] = group_item
-            root.add group_item
-          end
-          @group_handles[group].add DefaultMutableTreeNode.new(contact, false)
-        end
-      end
-    end
-    #search_results.each_with_index do |photo, index|
-      #root.add DefaultMutableTreeNode.new("hello", false)
-      #root.add DefaultMutableTreeNode.new(::Ebim::Base::Contact.new('','ueo'), false)
-    #end
-    javax.swing.tree.DefaultTreeModel.new(root, true)
+  def load
+    "ojeeeeeeeeeeeeeeeeeeeeeeeeeeeeej"
   end
 
 

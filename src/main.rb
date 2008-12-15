@@ -40,10 +40,10 @@ begin
   puts "aaa"
   c = MainController.instance
   c.open
-  puts "sssssssssssss"
-  puts c.class
-  puts c.view.class
-  puts c.view.get_field_value("java_window").class
+  #puts "sssssssssssss"
+  #puts c.class
+  #puts c.view.class
+  #puts c.view.get_field_value("java_window").class
   Ebim::Base.new
   puts "wwaa"
   # Your app logic here, i.e. YourController.instance.open

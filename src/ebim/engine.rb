@@ -11,21 +11,22 @@ module Ebim
 
     def connect
         #org.jivesoftware.smack.XMPPConnection.DEBUG_ENABLED = true;
-        puts "weeeeeeeeeeee"
+        #puts "weeeeeeeeeeee"
         config = org.jivesoftware.smack.ConnectionConfiguration.new("jabster.pl", 5222,'jabster.pl');
         config.setSASLAuthenticationEnabled(true);
 
         conn1 = org.jivesoftware.smack.XMPPConnection.new(config);
-        puts "connect"
-        debug "cccc"
+        #puts "connect"
+        debug "connecting"
         conn1.connect
         org.jivesoftware.smack.SASLAuthentication.supportSASLMechanism("PLAIN", 0);
-        puts "login"
+        #puts "login"
 
+        debug "logging in"
         conn1.login('kompotek','bociankowo','eou')
         roster = conn1.roster
 
-        puts roster.entries
+        #puts roster.entries
 
         items = []
         roster.entries.each do |entry|
@@ -47,18 +48,18 @@ module Ebim
     include org.jivesoftware.smack.RosterListener
 
     def initialize(engine)
-      puts "my roster listener"
+     # puts "my roster listener"
       @base = engine.base
     end
 
     def presence_changed(presence)
       #debug "presence received #{presence}"                                                                                                                                                                                                                                                                                                                                                                                                                                                               }"
-      puts "PRESENCE"
-      puts "type = #{presence.type} (#{presence.mode}, status = #{presence.status}"
-      puts "from = #{presence.from} (#{presence.from.class})"
-      pp presence
-      puts "hmm"
-      puts "sraj"
+      #puts "PRESENCE"
+      #puts "type = #{presence.type} (#{presence.mode}, status = #{presence.status}"
+      #puts "from = #{presence.from} (#{presence.from.class})"
+      #pp presence
+      #puts "hmm"
+      #puts "sraj"
       @base.item_presence_change(presence.from,presence.mode.to_s,presence.status.to_s)
 
     end

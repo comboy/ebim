@@ -105,6 +105,10 @@ module Monkeybars
       class_name = /.*?\.?(\w+)$/.match(java_class)[1]
       self.instance_java_class = const_get(class_name)
     end
+
+    def self.set_class(class_name)
+        self.instance_java_class = const_get(class_name)
+    end
     
     # Declares a mapping between the properties of the view and either the model's 
     # or the transfer's properties.  This mapping is used when creating the model.

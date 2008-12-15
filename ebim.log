@@ -241,3 +241,350 @@ I, [2008-12-14T20:10:52.921327 #10730]  INFO -- : item presence change: kacper.c
 I, [2008-12-14T20:10:52.963489 #10730]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
 I, [2008-12-14T20:11:32.923035 #10730]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | away | 
 I, [2008-12-14T20:11:48.922937 #10730]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | away | watta
+I, [2008-12-14T20:15:53.480511 #10825]  INFO -- : dupa
+I, [2008-12-14T20:15:53.726945 #10825]  INFO -- : Engine: cccc
+I, [2008-12-14T20:15:55.074340 #10825]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T20:15:55.123356 #10825]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | away | watta
+I, [2008-12-14T20:17:41.808944 #10852]  INFO -- : dupa
+I, [2008-12-14T20:17:42.104047 #10852]  INFO -- : Engine: cccc
+I, [2008-12-14T20:17:43.385204 #10852]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | away | watta
+I, [2008-12-14T20:17:43.424694 #10852]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T20:19:00.489159 #10885]  INFO -- : dupa
+I, [2008-12-14T20:19:00.858461 #10885]  INFO -- : Engine: cccc
+I, [2008-12-14T20:19:02.158207 #10885]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T20:19:27.996713 #10885]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | watta
+I, [2008-12-14T20:19:40.396627 #10885]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T20:28:49.362515 #10949]  INFO -- : dupa
+I, [2008-12-14T20:28:49.610790 #10949]  INFO -- : Engine: cccc
+I, [2008-12-14T20:28:50.795739 #10885]  INFO -- : item presence change: cimcirimcia@chrome.pl/ |  | 
+I, [2008-12-14T20:28:50.800381 #10885]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 |  | 
+I, [2008-12-14T20:28:50.954568 #10949]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T20:29:01.370948 #10949]  INFO -- : item presence change: cimcirimcia@chrome.pl/ |  | 
+I, [2008-12-14T20:29:01.487728 #10885]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T20:29:01.510222 #10885]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T20:29:11.964900 #10885]  INFO -- : item presence change: cimcirimcia@chrome.pl/ |  | 
+I, [2008-12-14T20:29:11.971446 #10885]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 |  | 
+I, [2008-12-14T20:29:12.065932 #10949]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T20:29:12.095343 #10949]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T20:29:22.516352 #10949]  INFO -- : item presence change: cimcirimcia@chrome.pl/ |  | 
+I, [2008-12-14T20:29:22.648189 #10885]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T20:29:22.672023 #10885]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T20:29:43.134360 #10995]  INFO -- : dupa
+I, [2008-12-14T20:29:43.384351 #10995]  INFO -- : Engine: cccc
+I, [2008-12-14T20:29:44.694252 #10995]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T20:29:44.708172 #10995]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T20:29:56.754808 #11020]  INFO -- : dupa
+I, [2008-12-14T20:29:57.059627 #11020]  INFO -- : Engine: cccc
+I, [2008-12-14T20:29:58.550061 #10995]  INFO -- : item presence change: cimcirimcia@chrome.pl/ |  | 
+I, [2008-12-14T20:29:58.554587 #10995]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 |  | 
+I, [2008-12-14T20:29:58.904283 #11020]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T20:30:09.145020 #11020]  INFO -- : item presence change: cimcirimcia@chrome.pl/ |  | 
+I, [2008-12-14T20:30:09.147932 #11020]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 |  | 
+I, [2008-12-14T20:30:09.266184 #10995]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T20:30:09.317736 #10995]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T20:30:19.842935 #11020]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T20:30:19.933477 #11020]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T20:31:05.759841 #11072]  INFO -- : dupa
+I, [2008-12-14T20:31:06.065807 #11072]  INFO -- : Engine: cccc
+I, [2008-12-14T20:31:07.533869 #11072]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T20:31:30.580800 #11072]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | away | 
+I, [2008-12-14T20:32:06.790833 #11072]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | błędy obsługi błędów bywają uciążliwe
+I, [2008-12-14T20:36:51.684058 #11155]  INFO -- : dupa
+I, [2008-12-14T20:36:52.060688 #11155]  INFO -- : Engine: cccc
+I, [2008-12-14T20:36:53.279371 #11155]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T20:39:53.846676 #11188]  INFO -- : dupa
+I, [2008-12-14T20:39:54.139698 #11188]  INFO -- : Engine: cccc
+I, [2008-12-14T20:39:55.378625 #11188]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T20:40:38.154494 #11233]  INFO -- : dupa
+I, [2008-12-14T20:40:38.475645 #11233]  INFO -- : Engine: cccc
+I, [2008-12-14T20:40:39.640420 #11188]  INFO -- : item presence change: cimcirimcia@chrome.pl/ |  | 
+I, [2008-12-14T20:40:39.645960 #11188]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 |  | 
+I, [2008-12-14T20:40:49.277621 #11271]  INFO -- : dupa
+I, [2008-12-14T20:40:49.640571 #11271]  INFO -- : Engine: cccc
+I, [2008-12-14T20:40:50.850921 #11271]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | błędy obsługi błędów bywają uciążliwe
+I, [2008-12-14T20:40:50.976585 #11271]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T20:41:27.157584 #11297]  INFO -- : dupa
+I, [2008-12-14T20:41:27.388485 #11297]  INFO -- : Engine: cccc
+I, [2008-12-14T20:41:28.644900 #11297]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T20:41:28.692383 #11297]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | błędy obsługi błędów bywają uciążliwe
+I, [2008-12-14T20:41:43.506207 #11328]  INFO -- : dupa
+I, [2008-12-14T20:41:43.754005 #11328]  INFO -- : Engine: cccc
+I, [2008-12-14T20:42:38.619898 #11358]  INFO -- : dupa
+I, [2008-12-14T20:42:38.892185 #11358]  INFO -- : Engine: cccc
+I, [2008-12-14T20:42:40.122257 #11358]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | błędy obsługi błędów bywają uciążliwe
+I, [2008-12-14T20:42:40.169543 #11358]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T20:44:04.494682 #11389]  INFO -- : dupa
+I, [2008-12-14T20:44:04.807464 #11389]  INFO -- : Engine: cccc
+I, [2008-12-14T20:44:06.040044 #11389]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | błędy obsługi błędów bywają uciążliwe
+I, [2008-12-14T20:44:06.116322 #11389]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T20:45:30.045069 #11417]  INFO -- : dupa
+I, [2008-12-14T20:45:30.323121 #11417]  INFO -- : Engine: cccc
+I, [2008-12-14T20:45:31.510588 #11417]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | błędy obsługi błędów bywają uciążliwe
+I, [2008-12-14T20:45:31.557292 #11417]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T20:46:26.323455 #11449]  INFO -- : dupa
+I, [2008-12-14T20:46:26.568060 #11449]  INFO -- : Engine: cccc
+I, [2008-12-14T20:46:28.508950 #11449]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T20:46:38.049621 #11476]  INFO -- : dupa
+I, [2008-12-14T20:46:38.341360 #11476]  INFO -- : Engine: cccc
+I, [2008-12-14T20:46:39.517101 #11476]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T20:46:39.546350 #11476]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | błędy obsługi błędów bywają uciążliwe
+I, [2008-12-14T20:50:29.971857 #11524]  INFO -- : dupa
+I, [2008-12-14T20:50:30.239988 #11524]  INFO -- : Engine: cccc
+I, [2008-12-14T20:50:31.424394 #11476]  INFO -- : item presence change: cimcirimcia@chrome.pl/ |  | 
+I, [2008-12-14T20:50:31.451876 #11476]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 |  | 
+I, [2008-12-14T20:50:42.147172 #11476]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | błędy obsługi błędów bywają uciążliwe
+I, [2008-12-14T20:50:42.248551 #11476]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T20:53:22.003392 #11570]  INFO -- : dupa
+I, [2008-12-14T20:53:22.289679 #11570]  INFO -- : Engine: cccc
+I, [2008-12-14T20:53:23.629973 #11570]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T21:02:25.103344 #11662]  INFO -- : dupa
+I, [2008-12-14T21:02:25.425877 #11662]  INFO -- : Engine: cccc
+I, [2008-12-14T21:02:26.647063 #11662]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | błędy obsługi błędów bywają uciążliwe
+I, [2008-12-14T21:02:26.752203 #11662]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T21:05:44.793091 #11768]  INFO -- : dupa
+I, [2008-12-14T21:05:45.037578 #11768]  INFO -- : Engine: cccc
+I, [2008-12-14T21:05:46.171775 #11662]  INFO -- : item presence change: cimcirimcia@chrome.pl/ |  | 
+I, [2008-12-14T21:05:46.187539 #11662]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 |  | 
+I, [2008-12-14T21:05:56.771994 #11768]  INFO -- : item presence change: cimcirimcia@chrome.pl/ |  | 
+I, [2008-12-14T21:05:56.780913 #11768]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 |  | 
+I, [2008-12-14T21:05:56.913240 #11662]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | błędy obsługi błędów bywają uciążliwe
+I, [2008-12-14T21:05:56.984026 #11662]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T21:06:08.210377 #11815]  INFO -- : dupa
+I, [2008-12-14T21:06:08.434651 #11815]  INFO -- : Engine: cccc
+I, [2008-12-14T21:06:09.682319 #11815]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | błędy obsługi błędów bywają uciążliwe
+I, [2008-12-14T21:06:09.777454 #11815]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T21:08:23.753239 #11843]  INFO -- : 
+I, [2008-12-14T21:08:23.938121 #11843]  INFO -- : 
+I, [2008-12-14T21:08:23.938780 #11843]  INFO -- : 
+I, [2008-12-14T21:08:23.939394 #11843]  INFO -- : stanting...
+I, [2008-12-14T21:08:24.005654 #11843]  INFO -- : Engine: connecting
+I, [2008-12-14T21:08:24.803631 #11843]  INFO -- : Engine: logging in
+I, [2008-12-14T21:08:25.194956 #11843]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | błędy obsługi błędów bywają uciążliwe
+I, [2008-12-14T21:08:25.246129 #11843]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T21:10:40.857163 #11843]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T21:16:24.921359 #11902]  INFO -- : 
+I, [2008-12-14T21:16:25.124390 #11902]  INFO -- : 
+I, [2008-12-14T21:16:25.125165 #11902]  INFO -- : 
+I, [2008-12-14T21:16:25.125781 #11902]  INFO -- : stanting...
+I, [2008-12-14T21:16:25.195943 #11902]  INFO -- : Engine: connecting
+I, [2008-12-14T21:16:25.975239 #11902]  INFO -- : Engine: logging in
+I, [2008-12-14T21:16:26.554949 #11902]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T21:16:26.573841 #11902]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T21:18:20.492379 #11934]  INFO -- : 
+I, [2008-12-14T21:18:20.687509 #11934]  INFO -- : 
+I, [2008-12-14T21:18:20.688168 #11934]  INFO -- : 
+I, [2008-12-14T21:18:20.688735 #11934]  INFO -- : stanting...
+I, [2008-12-14T21:18:20.755403 #11934]  INFO -- : Engine: connecting
+I, [2008-12-14T21:18:21.462770 #11934]  INFO -- : Engine: logging in
+I, [2008-12-14T21:18:22.038763 #11934]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T21:18:22.103434 #11934]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T21:18:44.892467 #11965]  INFO -- : 
+I, [2008-12-14T21:18:45.050924 #11965]  INFO -- : 
+I, [2008-12-14T21:18:45.052091 #11965]  INFO -- : 
+I, [2008-12-14T21:18:45.052700 #11965]  INFO -- : stanting...
+I, [2008-12-14T21:18:45.136415 #11965]  INFO -- : Engine: connecting
+I, [2008-12-14T21:18:45.876317 #11965]  INFO -- : Engine: logging in
+I, [2008-12-14T21:18:46.231208 #11934]  INFO -- : item presence change: cimcirimcia@chrome.pl/ |  | 
+I, [2008-12-14T21:18:46.235251 #11934]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 |  | 
+I, [2008-12-14T21:18:46.362032 #11965]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T21:18:46.408468 #11965]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T21:18:56.816059 #11965]  INFO -- : item presence change: cimcirimcia@chrome.pl/ |  | 
+I, [2008-12-14T21:18:56.818749 #11965]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 |  | 
+I, [2008-12-14T21:18:56.878167 #11934]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T21:18:56.961547 #11934]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T21:19:07.424249 #11934]  INFO -- : item presence change: cimcirimcia@chrome.pl/ |  | 
+I, [2008-12-14T21:19:07.427768 #11934]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 |  | 
+I, [2008-12-14T21:19:07.595980 #11965]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T21:19:07.714338 #11965]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T21:19:18.007052 #11934]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T21:19:18.102336 #11934]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T21:20:08.676107 #12022]  INFO -- : 
+I, [2008-12-14T21:20:08.880257 #12022]  INFO -- : 
+I, [2008-12-14T21:20:08.880916 #12022]  INFO -- : 
+I, [2008-12-14T21:20:08.881476 #12022]  INFO -- : stanting...
+I, [2008-12-14T21:20:08.948043 #12022]  INFO -- : Engine: connecting
+I, [2008-12-14T21:20:09.735566 #12022]  INFO -- : Engine: logging in
+I, [2008-12-14T21:20:10.094815 #11934]  INFO -- : item presence change: cimcirimcia@chrome.pl/ |  | 
+I, [2008-12-14T21:20:10.098681 #11934]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 |  | 
+I, [2008-12-14T21:20:10.237565 #12022]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T21:20:10.354472 #12022]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T21:20:20.697366 #12022]  INFO -- : item presence change: cimcirimcia@chrome.pl/ |  | 
+I, [2008-12-14T21:20:20.699972 #12022]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 |  | 
+I, [2008-12-14T21:20:20.796855 #11934]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T21:20:20.817027 #11934]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T21:23:55.961863 #12066]  INFO -- : 
+I, [2008-12-14T21:23:56.193273 #12066]  INFO -- : 
+I, [2008-12-14T21:23:56.194024 #12066]  INFO -- : 
+I, [2008-12-14T21:23:56.194673 #12066]  INFO -- : stanting...
+I, [2008-12-14T21:23:56.259366 #12066]  INFO -- : Engine: connecting
+I, [2008-12-14T21:23:57.103014 #12066]  INFO -- : Engine: logging in
+I, [2008-12-14T21:23:57.593441 #12066]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T21:23:57.746249 #12066]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T21:31:15.073555 #12123]  INFO -- : 
+I, [2008-12-14T21:31:15.233425 #12123]  INFO -- : 
+I, [2008-12-14T21:31:15.234119 #12123]  INFO -- : 
+I, [2008-12-14T21:31:15.234717 #12123]  INFO -- : stanting...
+I, [2008-12-14T21:31:15.300005 #12123]  INFO -- : Engine: connecting
+I, [2008-12-14T21:31:15.983607 #12123]  INFO -- : Engine: logging in
+I, [2008-12-14T21:31:16.411662 #12123]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T21:31:16.586698 #12123]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T21:31:52.092788 #12154]  INFO -- : 
+I, [2008-12-14T21:31:52.279309 #12154]  INFO -- : 
+I, [2008-12-14T21:31:52.280028 #12154]  INFO -- : 
+I, [2008-12-14T21:31:52.280625 #12154]  INFO -- : stanting...
+I, [2008-12-14T21:31:52.345086 #12154]  INFO -- : Engine: connecting
+I, [2008-12-14T21:31:53.166828 #12154]  INFO -- : Engine: logging in
+I, [2008-12-14T21:31:53.620850 #12154]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T21:31:53.683463 #12154]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T21:40:52.054098 #12243]  INFO -- : 
+I, [2008-12-14T21:40:52.217476 #12243]  INFO -- : 
+I, [2008-12-14T21:40:52.218175 #12243]  INFO -- : 
+I, [2008-12-14T21:40:52.218777 #12243]  INFO -- : stanting...
+I, [2008-12-14T21:40:52.284401 #12243]  INFO -- : Engine: connecting
+I, [2008-12-14T21:40:53.029658 #12243]  INFO -- : Engine: logging in
+I, [2008-12-14T21:40:53.447059 #12243]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T21:40:53.575072 #12243]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T21:47:08.212089 #12346]  INFO -- : 
+I, [2008-12-14T21:47:08.407802 #12346]  INFO -- : 
+I, [2008-12-14T21:47:08.408505 #12346]  INFO -- : 
+I, [2008-12-14T21:47:08.409107 #12346]  INFO -- : stanting...
+I, [2008-12-14T21:47:08.479350 #12346]  INFO -- : Engine: connecting
+I, [2008-12-14T21:47:09.241756 #12346]  INFO -- : Engine: logging in
+I, [2008-12-14T21:47:09.701877 #12346]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T21:47:09.747831 #12346]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T21:47:41.584713 #12376]  INFO -- : 
+I, [2008-12-14T21:47:41.750719 #12376]  INFO -- : 
+I, [2008-12-14T21:47:41.751418 #12376]  INFO -- : 
+I, [2008-12-14T21:47:41.752020 #12376]  INFO -- : stanting...
+I, [2008-12-14T21:47:41.820367 #12376]  INFO -- : Engine: connecting
+I, [2008-12-14T21:47:42.506367 #12376]  INFO -- : Engine: logging in
+I, [2008-12-14T21:47:43.018564 #12376]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T21:47:43.046088 #12376]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T22:05:55.557555 #12493]  INFO -- : 
+I, [2008-12-14T22:05:55.732074 #12493]  INFO -- : 
+I, [2008-12-14T22:05:55.732831 #12493]  INFO -- : 
+I, [2008-12-14T22:05:55.733480 #12493]  INFO -- : stanting...
+I, [2008-12-14T22:05:55.798830 #12493]  INFO -- : Engine: connecting
+I, [2008-12-14T22:05:56.671032 #12493]  INFO -- : Engine: logging in
+I, [2008-12-14T22:05:57.097367 #12376]  INFO -- : item presence change: cimcirimcia@chrome.pl/ |  | 
+I, [2008-12-14T22:05:57.128117 #12376]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 |  | 
+I, [2008-12-14T22:05:57.336944 #12493]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T22:05:57.344050 #12493]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T22:06:07.732100 #12493]  INFO -- : item presence change: cimcirimcia@chrome.pl/ |  | 
+I, [2008-12-14T22:06:07.772845 #12493]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 |  | 
+I, [2008-12-14T22:06:07.792288 #12376]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T22:06:07.876259 #12376]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T22:06:18.848764 #12493]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T22:06:18.878529 #12493]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T22:17:51.657307 #12564]  INFO -- : 
+I, [2008-12-14T22:17:51.910537 #12564]  INFO -- : 
+I, [2008-12-14T22:17:51.911400 #12564]  INFO -- : 
+I, [2008-12-14T22:17:51.912056 #12564]  INFO -- : stanting...
+I, [2008-12-14T22:17:51.982070 #12564]  INFO -- : Engine: connecting
+I, [2008-12-14T22:17:52.741759 #12564]  INFO -- : Engine: logging in
+I, [2008-12-14T22:17:53.188652 #12564]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T22:17:53.237526 #12564]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T22:22:27.653822 #12612]  INFO -- : 
+I, [2008-12-14T22:22:27.900726 #12612]  INFO -- : 
+I, [2008-12-14T22:22:27.901382 #12612]  INFO -- : 
+I, [2008-12-14T22:22:27.901939 #12612]  INFO -- : stanting...
+I, [2008-12-14T22:22:27.966993 #12612]  INFO -- : Engine: connecting
+I, [2008-12-14T22:22:28.696638 #12612]  INFO -- : Engine: logging in
+I, [2008-12-14T22:22:29.121402 #12612]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T22:22:29.166663 #12612]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T22:27:50.097250 #12659]  INFO -- : 
+I, [2008-12-14T22:27:50.265030 #12659]  INFO -- : 
+I, [2008-12-14T22:27:50.265695 #12659]  INFO -- : 
+I, [2008-12-14T22:27:50.266258 #12659]  INFO -- : stanting...
+I, [2008-12-14T22:27:50.399143 #12659]  INFO -- : Engine: connecting
+I, [2008-12-14T22:27:51.203535 #12659]  INFO -- : Engine: logging in
+I, [2008-12-14T22:27:51.622876 #12659]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T22:27:51.663415 #12659]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T22:28:31.604615 #12693]  INFO -- : 
+I, [2008-12-14T22:28:31.761610 #12693]  INFO -- : 
+I, [2008-12-14T22:28:31.762314 #12693]  INFO -- : 
+I, [2008-12-14T22:28:31.762929 #12693]  INFO -- : stanting...
+I, [2008-12-14T22:28:31.830111 #12693]  INFO -- : Engine: connecting
+I, [2008-12-14T22:28:32.497759 #12693]  INFO -- : Engine: logging in
+I, [2008-12-14T22:28:32.835478 #12659]  INFO -- : item presence change: cimcirimcia@chrome.pl/ |  | 
+I, [2008-12-14T22:28:32.878732 #12659]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 |  | 
+I, [2008-12-14T22:28:32.964552 #12693]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T22:28:33.005279 #12693]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T22:28:43.452703 #12693]  INFO -- : item presence change: cimcirimcia@chrome.pl/ |  | 
+I, [2008-12-14T22:28:43.459146 #12693]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 |  | 
+I, [2008-12-14T22:28:43.549893 #12659]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T22:28:43.599491 #12659]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T22:33:40.383402 #12766]  INFO -- : 
+I, [2008-12-14T22:33:40.613932 #12766]  INFO -- : 
+I, [2008-12-14T22:33:40.614585 #12766]  INFO -- : 
+I, [2008-12-14T22:33:40.615150 #12766]  INFO -- : stanting...
+I, [2008-12-14T22:33:40.704658 #12766]  INFO -- : Engine: connecting
+I, [2008-12-14T22:33:41.426080 #12766]  INFO -- : Engine: logging in
+I, [2008-12-14T22:33:41.867147 #12766]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T22:33:42.044671 #12766]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T22:34:44.811855 #12799]  INFO -- : 
+I, [2008-12-14T22:34:45.046796 #12799]  INFO -- : 
+I, [2008-12-14T22:34:45.047517 #12799]  INFO -- : 
+I, [2008-12-14T22:34:45.048087 #12799]  INFO -- : stanting...
+I, [2008-12-14T22:34:45.116336 #12799]  INFO -- : Engine: connecting
+I, [2008-12-14T22:34:45.900419 #12799]  INFO -- : Engine: logging in
+I, [2008-12-14T22:34:46.334070 #12799]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T22:34:46.512156 #12799]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-14T23:49:54.127242 #13770]  INFO -- : 
+I, [2008-12-14T23:49:54.328491 #13770]  INFO -- : 
+I, [2008-12-14T23:49:54.329149 #13770]  INFO -- : 
+I, [2008-12-14T23:49:54.330388 #13770]  INFO -- : stanting...
+I, [2008-12-14T23:49:54.409157 #13770]  INFO -- : Engine: connecting
+I, [2008-12-14T23:49:55.183850 #13770]  INFO -- : Engine: logging in
+I, [2008-12-14T23:49:55.741358 #13770]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-14T23:51:07.498545 #13868]  INFO -- : 
+I, [2008-12-14T23:51:07.650744 #13868]  INFO -- : 
+I, [2008-12-14T23:51:07.651470 #13868]  INFO -- : 
+I, [2008-12-14T23:51:07.652089 #13868]  INFO -- : stanting...
+I, [2008-12-14T23:51:07.720321 #13868]  INFO -- : Engine: connecting
+I, [2008-12-14T23:51:08.511930 #13868]  INFO -- : Engine: logging in
+I, [2008-12-14T23:51:08.924277 #13868]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-15T00:02:46.453048 #14511]  INFO -- : 
+I, [2008-12-15T00:02:46.612408 #14511]  INFO -- : 
+I, [2008-12-15T00:02:46.613093 #14511]  INFO -- : 
+I, [2008-12-15T00:02:46.613653 #14511]  INFO -- : stanting...
+I, [2008-12-15T00:02:46.680267 #14511]  INFO -- : Engine: connecting
+I, [2008-12-15T00:02:47.494626 #14511]  INFO -- : Engine: logging in
+I, [2008-12-15T00:02:48.366170 #14511]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-15T00:03:15.871654 #14561]  INFO -- : 
+I, [2008-12-15T00:03:16.060559 #14561]  INFO -- : 
+I, [2008-12-15T00:03:16.061275 #14561]  INFO -- : 
+I, [2008-12-15T00:03:16.061897 #14561]  INFO -- : stanting...
+I, [2008-12-15T00:03:16.127970 #14561]  INFO -- : Engine: connecting
+I, [2008-12-15T00:03:16.923906 #14561]  INFO -- : Engine: logging in
+I, [2008-12-15T00:03:17.332042 #14561]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-15T00:04:13.431781 #14632]  INFO -- : 
+I, [2008-12-15T00:04:13.617559 #14632]  INFO -- : 
+I, [2008-12-15T00:04:13.618217 #14632]  INFO -- : 
+I, [2008-12-15T00:04:13.618778 #14632]  INFO -- : stanting...
+I, [2008-12-15T00:04:13.687523 #14632]  INFO -- : Engine: connecting
+I, [2008-12-15T00:04:14.565081 #14632]  INFO -- : Engine: logging in
+I, [2008-12-15T00:04:15.014709 #14632]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-15T00:05:02.328258 #14697]  INFO -- : 
+I, [2008-12-15T00:05:02.510852 #14697]  INFO -- : 
+I, [2008-12-15T00:05:02.511640 #14697]  INFO -- : 
+I, [2008-12-15T00:05:02.512262 #14697]  INFO -- : stanting...
+I, [2008-12-15T00:05:02.586931 #14697]  INFO -- : Engine: connecting
+I, [2008-12-15T00:05:03.301245 #14697]  INFO -- : Engine: logging in
+I, [2008-12-15T00:05:03.768006 #14697]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-15T00:09:00.178817 #14961]  INFO -- : 
+I, [2008-12-15T00:09:00.419546 #14961]  INFO -- : 
+I, [2008-12-15T00:09:00.420233 #14961]  INFO -- : 
+I, [2008-12-15T00:09:00.420798 #14961]  INFO -- : stanting...
+I, [2008-12-15T00:09:00.505213 #14961]  INFO -- : Engine: connecting
+I, [2008-12-15T00:09:01.260445 #14961]  INFO -- : Engine: logging in
+I, [2008-12-15T00:09:01.693695 #14961]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-15T00:09:01.731642 #14961]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-15T00:10:35.331736 #15075]  INFO -- : 
+I, [2008-12-15T00:10:35.543498 #15075]  INFO -- : 
+I, [2008-12-15T00:10:35.544315 #15075]  INFO -- : 
+I, [2008-12-15T00:10:35.545055 #15075]  INFO -- : stanting...
+I, [2008-12-15T00:10:35.634339 #15075]  INFO -- : Engine: connecting
+I, [2008-12-15T00:10:36.332106 #15075]  INFO -- : Engine: logging in
+I, [2008-12-15T00:10:36.889688 #15075]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
+I, [2008-12-15T00:10:37.055049 #15075]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 

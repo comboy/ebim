@@ -85,6 +85,9 @@
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
       <SubComponents>
         <Component class="javax.swing.JTree" name="contacts_tree">
+          <Properties>
+            <Property name="rootVisible" type="boolean" value="false"/>
+          </Properties>
         </Component>
       </SubComponents>
     </Container>

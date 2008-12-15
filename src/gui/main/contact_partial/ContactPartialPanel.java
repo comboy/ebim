@@ -10,10 +10,6 @@
  */
 
 package gui.main.contact_partial;
-
-import java.awt.Component;
-import javax.swing.JTree;
-//import javax.swing.tree.DefaultTreeCellRenderer;
 //import javax.swing.tree.TreeCellRenderer;
 
 /**
@@ -30,8 +26,14 @@ public class ContactPartialPanel extends javax.swing.JPanel{
     }
 
     public void dispose() {
-        
+    //    a = Color.lightGray;
+
     }
+
+//    public Component[] getComponents() {
+//        return [];
+//    }
+
 
     /** This method is called from within the constructor to
      * initialize the form.
@@ -45,6 +47,7 @@ public class ContactPartialPanel extends javax.swing.JPanel{
     name_label = new javax.swing.JLabel();
 
     setBackground(new java.awt.Color(255, 255, 255));
+    setAutoscrolls(true);
 
     name_label.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gui/images/status/available.png"))); // NOI18N
     name_label.setText("jLabel1");

@@ -70,7 +70,6 @@ module Ebim
         presence = highest_resource ?
           highest_resource.presence :
           :unavailable
-        puts "PRRRRR [#{presence}]"
         presence.to_s.empty? ? :unavailable : presence
       end
 

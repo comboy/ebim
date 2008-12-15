@@ -12,6 +12,7 @@ class ContactPartialRenderer
 
     if leaf
       i = ContactPartialController.create_instance
+      i.selected = selected
       i.set_contact value.user_object#.java_object
       i.view.get_field_value("java_window")
     else

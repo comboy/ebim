@@ -1,5 +1,6 @@
 class ContactPartialModel
   attr_accessor :contact
+  attr_accessor :selected
 
   def label
     #"watta"
@@ -25,5 +26,9 @@ class ContactPartialModel
 
   def status
     @contact.status
+  end
+
+  def background
+    @selected ? java.awt.Color.blue : java.awt.Color.yellow
   end
 end

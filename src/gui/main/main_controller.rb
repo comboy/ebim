@@ -4,6 +4,23 @@ class MainController < ApplicationController
   set_close_action :exit
 
 
+ add_listener :type => :mouse, :components => [:contacts_tree]
+
+  def contacts_tree_mouse_released(bla)
+    
+    puts "THUENTOHEUNTOHUNSETH"
+    puts "===========#{bla} (#{bla.class}"
+    if bla.getClickCount == 2
+      puts "OOOOOOOOOOOO_OOOOOOOOOOOOO"
+      puts "ooooooo #{model.selection_path}"
+    end
+  end
+
+
+#  def contacts_list_mouse_released(view_state,event)
+#    puts "ORAJT"
+#    puts "ws: #{view_state.inspect}"
+#  end
   # Coming from outside
   def set_roster_items(items)
     puts "controller set roster items"
@@ -31,6 +48,11 @@ class MainController < ApplicationController
 
   def item_update(blah)
     puts "shold update some"
+    begin
+      view.contacts_tree.repaint
+    rescue Exception => ex
+      puts "EEEEEEEEEEEEX #{ex}"
+    end
     update_view
   end
 
