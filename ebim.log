@@ -588,3 +588,240 @@ I, [2008-12-15T00:10:35.634339 #15075]  INFO -- : Engine: connecting
 I, [2008-12-15T00:10:36.332106 #15075]  INFO -- : Engine: logging in
 I, [2008-12-15T00:10:36.889688 #15075]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeC1D747E9 | dnd | 
 I, [2008-12-15T00:10:37.055049 #15075]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-16T07:53:18.193322 #8761]  INFO -- : 
+I, [2008-12-16T07:53:20.424713 #8761]  INFO -- : 
+I, [2008-12-16T07:53:20.425939 #8761]  INFO -- : 
+I, [2008-12-16T07:53:20.426805 #8761]  INFO -- : stanting...
+I, [2008-12-16T07:53:20.639720 #8761]  INFO -- : Engine: connecting
+I, [2008-12-16T07:53:22.927206 #8761]  INFO -- : Engine: logging in
+I, [2008-12-16T07:53:59.937510 #8761]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerk82B4A0D7 |  | 
+I, [2008-12-16T07:54:13.847805 #8761]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerkFFD80592 |  | 
+I, [2008-12-16T08:06:17.429332 #8984]  INFO -- : 
+I, [2008-12-16T08:06:18.079182 #8984]  INFO -- : 
+I, [2008-12-16T08:06:18.080326 #8984]  INFO -- : 
+I, [2008-12-16T08:06:18.082677 #8984]  INFO -- : stanting...
+I, [2008-12-16T08:06:18.338606 #8984]  INFO -- : Engine: connecting
+I, [2008-12-16T08:06:19.648976 #8984]  INFO -- : Engine: logging in
+I, [2008-12-16T08:39:54.154017 #9214]  INFO -- : 
+I, [2008-12-16T08:39:54.788242 #9214]  INFO -- : 
+I, [2008-12-16T08:39:54.790812 #9214]  INFO -- : 
+I, [2008-12-16T08:39:54.791842 #9214]  INFO -- : stanting...
+I, [2008-12-16T08:39:55.056199 #9214]  INFO -- : Engine: connecting
+I, [2008-12-16T08:39:56.511340 #9214]  INFO -- : Engine: logging in
+I, [2008-12-16T08:40:43.173972 #9239]  INFO -- : 
+I, [2008-12-16T08:40:43.722962 #9239]  INFO -- : 
+I, [2008-12-16T08:40:43.728743 #9239]  INFO -- : 
+I, [2008-12-16T08:40:43.731066 #9239]  INFO -- : stanting...
+I, [2008-12-16T08:40:44.030218 #9239]  INFO -- : Engine: connecting
+I, [2008-12-16T08:40:45.338853 #9239]  INFO -- : Engine: logging in
+I, [2008-12-16T08:41:34.510048 #9261]  INFO -- : 
+I, [2008-12-16T08:41:35.108909 #9261]  INFO -- : 
+I, [2008-12-16T08:41:35.110330 #9261]  INFO -- : 
+I, [2008-12-16T08:41:35.111443 #9261]  INFO -- : stanting...
+I, [2008-12-16T08:41:35.369921 #9261]  INFO -- : Engine: connecting
+I, [2008-12-16T08:41:36.846639 #9261]  INFO -- : Engine: logging in
+I, [2008-12-16T08:41:38.034644 #9261]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerkFFD80592 |  | 
+I, [2008-12-16T08:41:38.062489 #9261]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-16T08:53:01.838357 #9321]  INFO -- : 
+I, [2008-12-16T08:53:02.442910 #9321]  INFO -- : 
+I, [2008-12-16T08:53:02.445227 #9321]  INFO -- : 
+I, [2008-12-16T08:53:02.447823 #9321]  INFO -- : stanting...
+I, [2008-12-16T08:53:02.786654 #9321]  INFO -- : Engine: connecting
+I, [2008-12-16T08:53:04.187711 #9321]  INFO -- : Engine: logging in
+I, [2008-12-16T08:53:04.860734 #9321]  INFO -- : Engine: presence unavailable
+I, [2008-12-16T08:53:04.862498 #9321]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-16T08:53:04.888808 #9321]  INFO -- : Engine: presence available
+I, [2008-12-16T08:53:04.910019 #9321]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerkFFD80592 |  | 
+I, [2008-12-16T08:54:07.090346 #9348]  INFO -- : 
+I, [2008-12-16T08:54:07.642451 #9348]  INFO -- : 
+I, [2008-12-16T08:54:07.644753 #9348]  INFO -- : 
+I, [2008-12-16T08:54:07.647599 #9348]  INFO -- : stanting...
+I, [2008-12-16T08:54:07.929958 #9348]  INFO -- : Engine: connecting
+I, [2008-12-16T08:54:14.182192 #9348]  INFO -- : Engine: logging in
+I, [2008-12-16T08:54:14.818604 #9348]  INFO -- : Engine: presence available
+I, [2008-12-16T08:54:14.820161 #9348]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerkFFD80592 |  | 
+I, [2008-12-16T08:54:14.845779 #9348]  INFO -- : Engine: presence unavailable
+I, [2008-12-16T08:54:14.847183 #9348]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-16T08:56:37.492243 #9390]  INFO -- : 
+I, [2008-12-16T08:56:38.017749 #9390]  INFO -- : 
+I, [2008-12-16T08:56:38.019028 #9390]  INFO -- : 
+I, [2008-12-16T08:56:38.019969 #9390]  INFO -- : stanting...
+I, [2008-12-16T08:56:38.276785 #9390]  INFO -- : Engine: connecting
+I, [2008-12-16T08:56:39.524072 #9390]  INFO -- : Engine: logging in
+I, [2008-12-16T08:56:40.236597 #9390]  INFO -- : Engine: presence available
+I, [2008-12-16T08:56:40.239564 #9390]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerkFFD80592 |  | 
+I, [2008-12-16T08:56:40.263631 #9390]  INFO -- : Engine: presence unavailable
+I, [2008-12-16T08:56:40.265212 #9390]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-16T08:57:26.138029 #9421]  INFO -- : 
+I, [2008-12-16T08:57:26.862598 #9421]  INFO -- : 
+I, [2008-12-16T08:57:26.866696 #9421]  INFO -- : 
+I, [2008-12-16T08:57:26.868691 #9421]  INFO -- : stanting...
+I, [2008-12-16T08:57:27.205584 #9421]  INFO -- : Engine: connecting
+I, [2008-12-16T08:57:28.598878 #9421]  INFO -- : Engine: logging in
+I, [2008-12-16T08:57:29.313065 #9421]  INFO -- : Engine: presence available
+I, [2008-12-16T08:57:29.314671 #9421]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerkFFD80592 |  | 
+I, [2008-12-16T08:57:29.342144 #9421]  INFO -- : Engine: presence unavailable
+I, [2008-12-16T08:57:29.343547 #9421]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-16T08:58:30.150796 #9443]  INFO -- : 
+I, [2008-12-16T08:58:30.722327 #9443]  INFO -- : 
+I, [2008-12-16T08:58:30.723494 #9443]  INFO -- : 
+I, [2008-12-16T08:58:30.726120 #9443]  INFO -- : stanting...
+I, [2008-12-16T08:58:31.043924 #9443]  INFO -- : Engine: connecting
+I, [2008-12-16T08:58:32.362627 #9443]  INFO -- : Engine: logging in
+I, [2008-12-16T08:58:33.158849 #9443]  INFO -- : Engine: presence available
+I, [2008-12-16T08:58:33.161778 #9443]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerkFFD80592 |  | 
+I, [2008-12-16T08:58:33.191593 #9443]  INFO -- : Engine: presence unavailable
+I, [2008-12-16T08:58:33.192984 #9443]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-16T09:00:29.316629 #9469]  INFO -- : 
+I, [2008-12-16T09:00:29.857453 #9469]  INFO -- : 
+I, [2008-12-16T09:00:29.858859 #9469]  INFO -- : 
+I, [2008-12-16T09:00:29.859841 #9469]  INFO -- : stanting...
+I, [2008-12-16T09:00:30.154574 #9469]  INFO -- : Engine: connecting
+I, [2008-12-16T09:00:31.454211 #9469]  INFO -- : Engine: logging in
+I, [2008-12-16T09:00:32.119531 #9469]  INFO -- : Engine: presence unavailable
+I, [2008-12-16T09:00:32.121073 #9469]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-16T09:00:32.148017 #9469]  INFO -- : Engine: presence available
+I, [2008-12-16T09:00:32.149328 #9469]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerkFFD80592 |  | 
+I, [2008-12-16T09:02:12.715757 #9512]  INFO -- : 
+I, [2008-12-16T09:02:13.247033 #9512]  INFO -- : 
+I, [2008-12-16T09:02:13.248301 #9512]  INFO -- : 
+I, [2008-12-16T09:02:13.249297 #9512]  INFO -- : stanting...
+I, [2008-12-16T09:02:13.508130 #9512]  INFO -- : Engine: connecting
+I, [2008-12-16T09:02:14.786540 #9512]  INFO -- : Engine: logging in
+I, [2008-12-16T09:02:51.614533 #9534]  INFO -- : 
+I, [2008-12-16T09:02:52.198148 #9534]  INFO -- : 
+I, [2008-12-16T09:02:52.230501 #9534]  INFO -- : 
+I, [2008-12-16T09:02:52.231690 #9534]  INFO -- : stanting...
+I, [2008-12-16T09:02:52.459184 #9534]  INFO -- : Engine: connecting
+I, [2008-12-16T09:02:53.791140 #9534]  INFO -- : Engine: logging in
+I, [2008-12-16T09:02:54.440052 #9534]  INFO -- : Engine: presence unavailable
+I, [2008-12-16T09:02:54.442301 #9534]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-16T09:02:54.466774 #9534]  INFO -- : Engine: presence available
+I, [2008-12-16T09:02:54.468262 #9534]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerkFFD80592 |  | 
+I, [2008-12-16T09:03:51.977714 #9558]  INFO -- : 
+I, [2008-12-16T09:03:52.539076 #9558]  INFO -- : 
+I, [2008-12-16T09:03:52.541414 #9558]  INFO -- : 
+I, [2008-12-16T09:03:52.546664 #9558]  INFO -- : stanting...
+I, [2008-12-16T09:03:52.807553 #9558]  INFO -- : Engine: connecting
+I, [2008-12-16T09:03:54.275904 #9558]  INFO -- : Engine: logging in
+I, [2008-12-16T09:03:54.889811 #9558]  INFO -- : Engine: presence available
+I, [2008-12-16T09:03:54.891546 #9558]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerkFFD80592 |  | 
+I, [2008-12-16T09:03:54.923069 #9558]  INFO -- : Engine: presence unavailable
+I, [2008-12-16T09:03:54.924393 #9558]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-16T09:05:56.249301 #9599]  INFO -- : 
+I, [2008-12-16T09:05:56.794974 #9599]  INFO -- : 
+I, [2008-12-16T09:05:56.796236 #9599]  INFO -- : 
+I, [2008-12-16T09:05:56.798601 #9599]  INFO -- : stanting...
+I, [2008-12-16T09:05:57.112143 #9599]  INFO -- : Engine: connecting
+I, [2008-12-16T09:05:58.455361 #9599]  INFO -- : Engine: logging in
+I, [2008-12-16T09:05:59.108245 #9599]  INFO -- : Engine: presence unavailable
+I, [2008-12-16T09:05:59.111596 #9599]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-16T09:05:59.123580 #9599]  INFO -- : Engine: presence unavailable
+I, [2008-12-16T09:05:59.130047 #9599]  INFO -- : item presence change: kacper.ciesla@gmail.com |  | 
+I, [2008-12-16T09:16:08.104370 #9649]  INFO -- : 
+I, [2008-12-16T09:16:08.673064 #9649]  INFO -- : 
+I, [2008-12-16T09:16:08.679458 #9649]  INFO -- : 
+I, [2008-12-16T09:16:08.680498 #9649]  INFO -- : stanting...
+I, [2008-12-16T09:16:08.935505 #9649]  INFO -- : Engine: connecting
+I, [2008-12-16T09:16:10.238333 #9649]  INFO -- : Engine: logging in
+I, [2008-12-16T09:16:10.637618 #9649]  INFO -- : Engine: presence unavailable
+I, [2008-12-16T09:16:10.640871 #9649]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-16T09:16:10.660876 #9649]  INFO -- : Engine: presence unavailable
+I, [2008-12-16T09:16:10.662215 #9649]  INFO -- : item presence change: kacper.ciesla@gmail.com |  | 
+I, [2008-12-16T09:19:43.151365 #9694]  INFO -- : 
+I, [2008-12-16T09:19:43.756590 #9694]  INFO -- : 
+I, [2008-12-16T09:19:43.758130 #9694]  INFO -- : 
+I, [2008-12-16T09:19:43.759178 #9694]  INFO -- : stanting...
+I, [2008-12-16T09:19:44.009061 #9694]  INFO -- : Engine: connecting
+I, [2008-12-16T09:19:45.352594 #9694]  INFO -- : Engine: logging in
+I, [2008-12-16T09:19:45.792212 #9694]  INFO -- : Engine: presence unavailable
+I, [2008-12-16T09:19:45.811592 #9694]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-16T09:19:45.840195 #9694]  INFO -- : Engine: presence unavailable
+I, [2008-12-16T09:19:45.841574 #9694]  INFO -- : item presence change: kacper.ciesla@gmail.com |  | 
+I, [2008-12-16T09:21:46.822489 #9742]  INFO -- : 
+I, [2008-12-16T09:21:47.404605 #9742]  INFO -- : 
+I, [2008-12-16T09:21:47.407631 #9742]  INFO -- : 
+I, [2008-12-16T09:21:47.411076 #9742]  INFO -- : stanting...
+I, [2008-12-16T09:21:47.664834 #9742]  INFO -- : Engine: connecting
+I, [2008-12-16T09:21:49.021967 #9742]  INFO -- : Engine: logging in
+I, [2008-12-16T09:21:49.452166 #9742]  INFO -- : Engine: presence unavailable
+I, [2008-12-16T09:21:49.456658 #9742]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-16T09:21:49.470812 #9742]  INFO -- : Engine: presence unavailable
+I, [2008-12-16T09:21:49.472220 #9742]  INFO -- : item presence change: kacper.ciesla@gmail.com |  | 
+I, [2008-12-16T09:25:43.562141 #9787]  INFO -- : 
+I, [2008-12-16T09:25:44.182041 #9787]  INFO -- : 
+I, [2008-12-16T09:25:44.183202 #9787]  INFO -- : 
+I, [2008-12-16T09:25:44.184071 #9787]  INFO -- : stanting...
+I, [2008-12-16T09:25:44.566242 #9787]  INFO -- : Engine: connecting
+I, [2008-12-16T09:25:50.880052 #9787]  INFO -- : Engine: logging in
+I, [2008-12-16T09:25:51.277089 #9787]  INFO -- : Engine: presence unavailable
+I, [2008-12-16T09:25:51.294831 #9787]  INFO -- : item presence change: kacper.ciesla@gmail.com |  | 
+I, [2008-12-16T09:25:51.326521 #9787]  INFO -- : Engine: presence unavailable
+I, [2008-12-16T09:25:51.334105 #9787]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-16T09:25:51.432132 #9787]  INFO -- : Presence: latafak
+I, [2008-12-16T09:25:51.436665 #9787]  INFO -- : Presence: presence -- available - 
+I, [2008-12-16T09:25:51.438870 #9787]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerkFFD80592 |  | 
+I, [2008-12-16T09:25:51.457280 #9787]  INFO -- : Presence: latafak
+I, [2008-12-16T09:25:51.459922 #9787]  INFO -- : Presence: presence -- available: dnd - dnd
+I, [2008-12-16T09:25:51.461293 #9787]  INFO -- : item presence change: kacper.ciesla@gmail.com/Home0D533381 | dnd | 
+I, [2008-12-16T09:26:56.166699 #9814]  INFO -- : 
+I, [2008-12-16T09:26:56.768570 #9814]  INFO -- : 
+I, [2008-12-16T09:26:56.771572 #9814]  INFO -- : 
+I, [2008-12-16T09:26:56.777759 #9814]  INFO -- : stanting...
+I, [2008-12-16T09:26:57.086013 #9814]  INFO -- : Engine: connecting
+I, [2008-12-16T09:26:58.612320 #9814]  INFO -- : Engine: logging in
+I, [2008-12-16T09:27:48.372920 #9841]  INFO -- : 
+I, [2008-12-16T09:27:48.909060 #9841]  INFO -- : 
+I, [2008-12-16T09:27:48.910732 #9841]  INFO -- : 
+I, [2008-12-16T09:27:48.911885 #9841]  INFO -- : stanting...
+I, [2008-12-16T09:27:49.166194 #9841]  INFO -- : Engine: connecting
+I, [2008-12-16T09:27:50.429567 #9841]  INFO -- : Engine: logging in
+I, [2008-12-16T09:27:51.048384 #9841]  INFO -- : Engine: presence available
+I, [2008-12-16T09:27:51.050038 #9841]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerkFFD80592 |  | 
+I, [2008-12-16T09:27:51.075498 #9841]  INFO -- : Engine: presence unavailable
+I, [2008-12-16T09:27:51.076899 #9841]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-16T09:34:31.948619 #9884]  INFO -- : 
+I, [2008-12-16T09:34:32.695795 #9884]  INFO -- : 
+I, [2008-12-16T09:34:32.697069 #9884]  INFO -- : 
+I, [2008-12-16T09:34:32.699281 #9884]  INFO -- : stanting...
+I, [2008-12-16T09:34:33.065483 #9884]  INFO -- : Engine: connecting
+I, [2008-12-16T09:34:34.565343 #9884]  INFO -- : Engine: logging in
+I, [2008-12-16T09:43:53.099321 #9884]  INFO -- : Presence: latafak
+I, [2008-12-16T09:43:53.102409 #9884]  INFO -- : Presence: presence -- available: dnd - dnd
+I, [2008-12-16T09:43:53.105359 #9884]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerkFFD80592 | dnd | 
+I, [2008-12-16T09:44:22.856352 #9884]  INFO -- : Presence: latafak
+I, [2008-12-16T09:44:22.858469 #9884]  INFO -- : Presence: presence -- available - 
+I, [2008-12-16T09:44:22.860825 #9884]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerkFFD80592 |  | 
+I, [2008-12-16T09:46:01.492122 #9984]  INFO -- : 
+I, [2008-12-16T09:46:02.033474 #9984]  INFO -- : 
+I, [2008-12-16T09:46:02.034633 #9984]  INFO -- : 
+I, [2008-12-16T09:46:02.035484 #9984]  INFO -- : stanting...
+I, [2008-12-16T09:46:02.276603 #9984]  INFO -- : Engine: connecting
+I, [2008-12-16T09:46:03.614697 #9984]  INFO -- : Engine: logging in
+I, [2008-12-16T09:46:04.276205 #9984]  INFO -- : Presence: latafak
+I, [2008-12-16T09:46:04.294929 #9984]  INFO -- : Presence: presence -- available - 
+I, [2008-12-16T09:46:04.297076 #9984]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerkFFD80592 | available | 
+I, [2008-12-16T09:46:04.325894 #9984]  INFO -- : Presence: latafak
+I, [2008-12-16T09:46:04.328154 #9984]  INFO -- : Presence: presence -- available: dnd - dnd
+I, [2008-12-16T09:46:04.329546 #9984]  INFO -- : item presence change: kacper.ciesla@gmail.com/Home0D533381 | dnd | 
+I, [2008-12-16T09:46:26.608872 #9984]  INFO -- : Presence: latafak
+I, [2008-12-16T09:46:26.611888 #9984]  INFO -- : Presence: presence -- available: dnd - dnd
+I, [2008-12-16T09:46:26.614175 #9984]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerkFFD80592 | dnd | 
+I, [2008-12-16T09:46:30.103244 #9984]  INFO -- : Presence: latafak
+I, [2008-12-16T09:46:30.105109 #9984]  INFO -- : Presence: presence -- available - 
+I, [2008-12-16T09:46:30.107294 #9984]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerkFFD80592 | available | 
+I, [2008-12-16T10:06:51.248622 #10069]  INFO -- : 
+I, [2008-12-16T10:06:51.812773 #10069]  INFO -- : 
+I, [2008-12-16T10:06:51.813955 #10069]  INFO -- : 
+I, [2008-12-16T10:06:51.814820 #10069]  INFO -- : stanting...
+I, [2008-12-16T10:06:52.066565 #10069]  INFO -- : Engine: connecting
+I, [2008-12-16T10:06:54.045293 #10069]  INFO -- : Engine: logging in
+I, [2008-12-16T10:10:33.321996 #10125]  INFO -- : 
+I, [2008-12-16T10:10:33.876690 #10125]  INFO -- : 
+I, [2008-12-16T10:10:33.882077 #10125]  INFO -- : 
+I, [2008-12-16T10:10:33.883141 #10125]  INFO -- : stanting...
+I, [2008-12-16T10:10:34.140557 #10125]  INFO -- : Engine: connecting
+I, [2008-12-16T10:10:35.601375 #10125]  INFO -- : Engine: logging in
+I, [2008-12-16T10:11:00.220326 #10125]  INFO -- : Presence: latafak
+I, [2008-12-16T10:11:00.224252 #10125]  INFO -- : Presence: presence -- available: away - away
+I, [2008-12-16T10:11:00.226892 #10125]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerkFFD80592 | away | 

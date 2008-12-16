@@ -19,16 +19,15 @@ end
 # End of platform specific code
 #===============================================================================
 
-puts "WWWWWWWWW"
 $LOAD_PATH.unshift File.dirname(__FILE__)
 Dir.glob(File.expand_path(File.dirname(__FILE__) + "/../lib/ruby/*/lib")).each do |directory|
-  puts "dir #{directory}"
+  #puts "dir #{directory}"
   $LOAD_PATH << directory unless directory =~ /\.\w+$/ #File.directory? is broken in current JRuby for dirs inside jars
 end
 
 puts "AAAAAAA"
 Dir.glob(File.expand_path(File.dirname(__FILE__) + "/**/**/**")).each do |directory|
-  puts "fok #{directory}"
+  #puts "fok #{directory}"
   $LOAD_PATH << directory unless directory =~ /\.\w+$/ #File.directory? is broken in current JRuby for dirs inside jars
 end
 

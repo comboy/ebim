@@ -34,10 +34,16 @@ module Ebim
           items << contact
         end
         @base.roster_items = items
+#        items.each do |item|
+#          presence = roster.get_presence(item.jid)
+#          debug "presence #{presence}"
+#          @base.item_presence_change(presence.from,presence.mode.to_s,presence.status.to_s)
+##          presence_changed roster.get_presence(item.jid)
+#        end
 
       roster.add_roster_listener MyRosterListener.new self
 
-        @chat = conn1.chat_manager.add_chat_listener MyChatListener.new
+      @chat = conn1.chat_manager.add_chat_listener MyChatListener.new
 
 
 
@@ -47,21 +53,36 @@ module Ebim
   class MyRosterListener
     include org.jivesoftware.smack.RosterListener
 
-    def initialize(engine)
+     def initialize(engine)
      # puts "my roster listener"
       @base = engine.base
     end
 
     def presence_changed(presence)
+      begin
+      debug "latafak"
       #debug "presence received #{presence}"                                                                                                                                                                                                                                                                                                                                                                                                                                                               }"
-      #puts "PRESENCE"
+      puts "PRESENCE"
       #puts "type = #{presence.type} (#{presence.mode}, status = #{presence.status}"
       #puts "from = #{presence.from} (#{presence.from.class})"
       #pp presence
       #puts "hmm"
       #puts "sraj"
-      @base.item_presence_change(presence.from,presence.mode.to_s,presence.status.to_s)
+      debug "presence -- #{presence} - #{presence.mode}"
 
+      pres = presence.mode.to_s
+      if pres.strip.empty? and presence.available
+        pres = 'available'
+      end
+      @base.item_presence_change(presence.from,pres,presence.status.to_s)
+      rescue Exception => ex
+        puts "!!!!!!!!!!!!!!!!!!!!!!!!!!!! #{ex}"
+        puts "##-------- #{ex.backtrace.join("\n")}"
+      end
+    end
+
+    def debug(text)
+      @base.debug "Presence: #{text}"
     end
   end
 
