@@ -1,0 +1,73 @@
+# Logfile created on Tue Dec 16 23:29:46 +0100 2008 by /
+I, [2008-12-16T23:29:46.450964 #31829]  INFO -- : 
+I, [2008-12-16T23:29:46.464284 #31829]  INFO -- : 
+I, [2008-12-16T23:29:46.465052 #31829]  INFO -- : 
+I, [2008-12-16T23:29:46.465629 #31829]  INFO -- : stanting...
+I, [2008-12-16T23:29:46.641309 #31829]  INFO -- : Engine: connecting
+I, [2008-12-16T23:29:47.470205 #31829]  INFO -- : Engine: logging in
+I, [2008-12-16T23:29:47.960990 #31829]  INFO -- : Presence: latafak
+I, [2008-12-16T23:29:47.962189 #31829]  INFO -- : Presence: presence -- available - 
+I, [2008-12-16T23:29:47.963250 #31829]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerk09173A75 | available | 
+I, [2008-12-16T23:29:47.972449 #31829]  INFO -- : Presence: latafak
+I, [2008-12-16T23:29:47.974284 #31829]  INFO -- : Presence: presence -- available: dnd - dnd
+I, [2008-12-16T23:29:47.975176 #31829]  INFO -- : item presence change: kacper.ciesla@gmail.com/Home449B18EB | dnd | 
+I, [2008-12-17T00:52:05.203818 #32149]  INFO -- : 
+I, [2008-12-17T00:52:05.353893 #32149]  INFO -- : 
+I, [2008-12-17T00:52:05.354565 #32149]  INFO -- : 
+I, [2008-12-17T00:52:05.355134 #32149]  INFO -- : stanting...
+I, [2008-12-17T00:52:05.422859 #32149]  INFO -- : Engine: connecting
+I, [2008-12-17T00:52:06.142864 #32149]  INFO -- : Engine: logging in
+I, [2008-12-17T00:52:06.567803 #32149]  INFO -- : Presence: latafak
+I, [2008-12-17T00:52:06.568924 #32149]  INFO -- : Presence: presence -- available: dnd - dnd
+I, [2008-12-17T00:52:06.570244 #32149]  INFO -- : item presence change: kacper.ciesla@gmail.com/Home449B18EB | dnd | 
+I, [2008-12-17T00:52:06.578860 #32149]  INFO -- : Presence: latafak
+I, [2008-12-17T00:52:06.580286 #32149]  INFO -- : Presence: presence -- available - 
+I, [2008-12-17T00:52:06.581228 #32149]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerk09173A75 | available | 
+I, [2008-12-17T01:07:25.958183 #32219]  INFO -- : 
+I, [2008-12-17T01:07:26.182329 #32219]  INFO -- : 
+I, [2008-12-17T01:07:26.183099 #32219]  INFO -- : 
+I, [2008-12-17T01:07:26.183838 #32219]  INFO -- : stanting...
+I, [2008-12-17T01:07:26.253511 #32219]  INFO -- : Engine: connecting
+I, [2008-12-17T01:07:27.048854 #32219]  INFO -- : Engine: logging in
+I, [2008-12-17T01:07:27.473466 #32219]  INFO -- : Presence: latafak
+I, [2008-12-17T01:07:27.475000 #32219]  INFO -- : Presence: presence -- available: dnd - dnd
+I, [2008-12-17T01:07:27.477127 #32219]  INFO -- : item presence change: kacper.ciesla@gmail.com/Home449B18EB | dnd | 
+I, [2008-12-17T01:07:27.482851 #32219]  INFO -- : Presence: latafak
+I, [2008-12-17T01:07:27.484131 #32219]  INFO -- : Presence: presence -- available - 
+I, [2008-12-17T01:07:27.485235 #32219]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerk09173A75 | available | 
+I, [2008-12-17T01:08:40.609327 #32252]  INFO -- : 
+I, [2008-12-17T01:08:40.817487 #32252]  INFO -- : 
+I, [2008-12-17T01:08:40.818143 #32252]  INFO -- : 
+I, [2008-12-17T01:08:40.818701 #32252]  INFO -- : stanting...
+I, [2008-12-17T01:08:40.884330 #32252]  INFO -- : Engine: connecting
+I, [2008-12-17T01:08:41.562262 #32252]  INFO -- : Engine: logging in
+I, [2008-12-17T01:08:41.983324 #32252]  INFO -- : Presence: latafak
+I, [2008-12-17T01:08:41.984594 #32252]  INFO -- : Presence: presence -- available: dnd - dnd
+I, [2008-12-17T01:08:41.985597 #32252]  INFO -- : item presence change: kacper.ciesla@gmail.com/Home449B18EB | dnd | 
+I, [2008-12-17T01:08:41.994359 #32252]  INFO -- : Presence: latafak
+I, [2008-12-17T01:08:41.995217 #32252]  INFO -- : Presence: presence -- available - 
+I, [2008-12-17T01:08:41.996026 #32252]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerk09173A75 | available | 
+I, [2008-12-17T01:09:52.855879 #32278]  INFO -- : 
+I, [2008-12-17T01:09:53.076498 #32278]  INFO -- : 
+I, [2008-12-17T01:09:53.077171 #32278]  INFO -- : 
+I, [2008-12-17T01:09:53.077735 #32278]  INFO -- : stanting...
+I, [2008-12-17T01:09:53.145611 #32278]  INFO -- : Engine: connecting
+I, [2008-12-17T01:09:53.882256 #32278]  INFO -- : Engine: logging in
+I, [2008-12-17T01:09:54.301517 #32278]  INFO -- : Presence: latafak
+I, [2008-12-17T01:09:54.303170 #32278]  INFO -- : Presence: presence -- available: dnd - dnd
+I, [2008-12-17T01:09:54.304206 #32278]  INFO -- : item presence change: kacper.ciesla@gmail.com/Home449B18EB | dnd | 
+I, [2008-12-17T01:09:54.309895 #32278]  INFO -- : Presence: latafak
+I, [2008-12-17T01:09:54.311503 #32278]  INFO -- : Presence: presence -- available - 
+I, [2008-12-17T01:09:54.312506 #32278]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerk09173A75 | available | 
+I, [2008-12-17T01:10:31.304194 #32321]  INFO -- : 
+I, [2008-12-17T01:10:31.448184 #32321]  INFO -- : 
+I, [2008-12-17T01:10:31.448839 #32321]  INFO -- : 
+I, [2008-12-17T01:10:31.449394 #32321]  INFO -- : stanting...
+I, [2008-12-17T01:10:31.519591 #32321]  INFO -- : Engine: connecting
+I, [2008-12-17T01:10:32.179185 #32321]  INFO -- : Engine: logging in
+I, [2008-12-17T01:10:32.601547 #32321]  INFO -- : Presence: latafak
+I, [2008-12-17T01:10:32.603944 #32321]  INFO -- : Presence: presence -- available: dnd - dnd
+I, [2008-12-17T01:10:32.607269 #32321]  INFO -- : item presence change: kacper.ciesla@gmail.com/Home449B18EB | dnd | 
+I, [2008-12-17T01:10:32.613819 #32321]  INFO -- : Presence: latafak
+I, [2008-12-17T01:10:32.615105 #32321]  INFO -- : Presence: presence -- available - 
+I, [2008-12-17T01:10:32.615971 #32321]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerk09173A75 | available | 

@@ -4,7 +4,7 @@ class MainController < ApplicationController
   set_close_action :exit
 
 
- add_listener :type => :mouse, :components => [:contacts_tree]
+  add_listener :type => :mouse, :components => [:contacts_tree]
 
   def contacts_tree_mouse_released(bla)
     
@@ -12,7 +12,14 @@ class MainController < ApplicationController
     puts "===========#{bla} (#{bla.class}"
     if bla.getClickCount == 2
       puts "OOOOOOOOOOOO_OOOOOOOOOOOOO"
-      puts "ooooooo #{model.selection_path}"
+      #puts "ooooooo #{view.contacts_tree.get_row_for_location bla.x, bla.y}"
+      node = view.contacts_tree.get_last_selected_path_component
+      if node.is_leaf
+        puts "aaaaaooooooo #{node.user_object.jid}"
+        MessageController.create_instance.open
+      end
+      
+
     end
   end
 
@@ -42,8 +49,9 @@ class MainController < ApplicationController
   def temp_easy_update items
     set_roster_items items
   end
+
   def load
-    
+    @message_windows = {}
   end
 
   def item_update(blah)

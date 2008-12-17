@@ -7,7 +7,7 @@ module Ebim
     attr_accessor :config
 
     def initialize
-      @logger = ::Logger.new "/lapciak/projects/ebim/ebim.log"
+      @logger = ::Logger.new "/comboy/projects/ebim/ebim.log"
 
       debug ""
       debug ""
