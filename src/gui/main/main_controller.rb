@@ -16,7 +16,9 @@ class MainController < ApplicationController
       node = view.contacts_tree.get_last_selected_path_component
       if node.is_leaf
         puts "aaaaaooooooo #{node.user_object.jid}"
-        MessageController.create_instance.open
+        m = MessageController.create_instance.open
+        m.contact = node.user_object
+        m.add_message 'ja', 'wassup'
       end
       
 

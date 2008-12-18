@@ -34,12 +34,12 @@ public class MessageFrame extends javax.swing.JFrame {
     jScrollPane1 = new javax.swing.JScrollPane();
     jEditorPane1 = new javax.swing.JEditorPane();
     jPanel1 = new javax.swing.JPanel();
-    jLabel1 = new javax.swing.JLabel();
+    infoLabel = new javax.swing.JLabel();
     jSplitPane1 = new javax.swing.JSplitPane();
     jScrollPane2 = new javax.swing.JScrollPane();
     jEditorPane2 = new javax.swing.JEditorPane();
     jScrollPane3 = new javax.swing.JScrollPane();
-    jTextPane1 = new javax.swing.JTextPane();
+    talkTextPane = new javax.swing.JTextPane();
     jMenuBar1 = new javax.swing.JMenuBar();
     jMenu1 = new javax.swing.JMenu();
     jMenu2 = new javax.swing.JMenu();
@@ -50,19 +50,20 @@ public class MessageFrame extends javax.swing.JFrame {
 
     jPanel1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-    jLabel1.setText("<html><b>jLabel1</b><br>\neuoue");
+    infoLabel.setText("<html><b>jLabel1</b><br>\neuoue");
 
     javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
     jPanel1.setLayout(jPanel1Layout);
     jPanel1Layout.setHorizontalGroup(
       jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 296, Short.MAX_VALUE)
+      .addComponent(infoLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 296, Short.MAX_VALUE)
     );
     jPanel1Layout.setVerticalGroup(
       jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+      .addComponent(infoLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
     );
 
+    jSplitPane1.setDividerLocation(150);
     jSplitPane1.setOrientation(javax.swing.JSplitPane.VERTICAL_SPLIT);
 
     jScrollPane2.setBackground(new java.awt.Color(255, 255, 255));
@@ -72,9 +73,9 @@ public class MessageFrame extends javax.swing.JFrame {
 
     jSplitPane1.setBottomComponent(jScrollPane2);
 
-    jTextPane1.setBackground(java.awt.Color.white);
-    jTextPane1.setEditable(false);
-    jScrollPane3.setViewportView(jTextPane1);
+    talkTextPane.setBackground(java.awt.Color.white);
+    talkTextPane.setEditable(false);
+    jScrollPane3.setViewportView(talkTextPane);
 
     jSplitPane1.setLeftComponent(jScrollPane3);
 
@@ -116,9 +117,9 @@ public class MessageFrame extends javax.swing.JFrame {
     }
 
   // Variables declaration - do not modify//GEN-BEGIN:variables
+  private javax.swing.JLabel infoLabel;
   private javax.swing.JEditorPane jEditorPane1;
   private javax.swing.JEditorPane jEditorPane2;
-  private javax.swing.JLabel jLabel1;
   private javax.swing.JMenu jMenu1;
   private javax.swing.JMenu jMenu2;
   private javax.swing.JMenuBar jMenuBar1;
@@ -127,7 +128,7 @@ public class MessageFrame extends javax.swing.JFrame {
   private javax.swing.JScrollPane jScrollPane2;
   private javax.swing.JScrollPane jScrollPane3;
   private javax.swing.JSplitPane jSplitPane1;
-  private javax.swing.JTextPane jTextPane1;
+  private javax.swing.JTextPane talkTextPane;
   // End of variables declaration//GEN-END:variables
 
 }
