@@ -1,0 +1,85 @@
+# Logfile created on Wed Dec 17 20:11:29 +0100 2008 by /
+I, [2008-12-17T20:11:29.766259 #16493]  INFO -- : 
+I, [2008-12-17T20:11:29.779500 #16493]  INFO -- : 
+I, [2008-12-17T20:11:29.780155 #16493]  INFO -- : 
+I, [2008-12-17T20:11:29.780745 #16493]  INFO -- : stanting...
+I, [2008-12-17T20:11:29.903917 #16493]  INFO -- : Engine: connecting
+I, [2008-12-17T20:11:30.643541 #16493]  INFO -- : Engine: logging in
+I, [2008-12-17T20:11:31.095770 #16493]  INFO -- : Presence: latafak
+I, [2008-12-17T20:11:31.096952 #16493]  INFO -- : Presence: presence -- available (smutek) - 
+I, [2008-12-17T20:11:31.098292 #16493]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerk0420DB0D | available | smutek
+I, [2008-12-17T20:11:31.103561 #16493]  INFO -- : Presence: latafak
+I, [2008-12-17T20:11:31.104822 #16493]  INFO -- : Presence: presence -- available: dnd - dnd
+I, [2008-12-17T20:11:31.105674 #16493]  INFO -- : item presence change: kacper.ciesla@gmail.com/Home449B18EB | dnd | 
+I, [2008-12-17T20:11:34.004748 #16493]  INFO -- : Presence: latafak
+I, [2008-12-17T20:11:34.006184 #16493]  INFO -- : Presence: presence -- error - 
+I, [2008-12-17T20:11:34.007011 #16493]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-17T20:11:34.010490 #16493]  INFO -- : Presence: latafak
+I, [2008-12-17T20:11:34.011347 #16493]  INFO -- : Presence: presence -- error - 
+I, [2008-12-17T20:11:34.012061 #16493]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-17T22:15:18.002992 #17642]  INFO -- : 
+I, [2008-12-17T22:15:18.226079 #17642]  INFO -- : 
+I, [2008-12-17T22:15:18.226756 #17642]  INFO -- : 
+I, [2008-12-17T22:15:18.227323 #17642]  INFO -- : stanting...
+I, [2008-12-17T22:15:18.354441 #17642]  INFO -- : Engine: connecting
+I, [2008-12-17T22:15:19.117326 #17642]  INFO -- : Engine: logging in
+I, [2008-12-17T22:15:19.554821 #17642]  INFO -- : Presence: latafak
+I, [2008-12-17T22:15:19.556027 #17642]  INFO -- : Presence: presence -- available: dnd - dnd
+I, [2008-12-17T22:15:19.557048 #17642]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeEFD671D5 | dnd | 
+I, [2008-12-17T22:15:19.563493 #17642]  INFO -- : Presence: latafak
+I, [2008-12-17T22:15:19.564410 #17642]  INFO -- : Presence: presence -- available (smutek) - 
+I, [2008-12-17T22:15:19.565479 #17642]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerk0420DB0D | available | smutek
+I, [2008-12-17T22:15:40.433766 #17642]  INFO -- : Presence: latafak
+I, [2008-12-17T22:15:40.434975 #17642]  INFO -- : Presence: presence -- error - 
+I, [2008-12-17T22:15:40.435725 #17642]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-17T22:15:40.449682 #17642]  INFO -- : Presence: latafak
+I, [2008-12-17T22:15:40.451595 #17642]  INFO -- : Presence: presence -- error - 
+I, [2008-12-17T22:15:40.452314 #17642]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-18T00:32:47.768640 #18252]  INFO -- : 
+I, [2008-12-18T00:32:48.004612 #18252]  INFO -- : 
+I, [2008-12-18T00:32:48.005466 #18252]  INFO -- : 
+I, [2008-12-18T00:32:48.006061 #18252]  INFO -- : stanting...
+I, [2008-12-18T00:32:48.125537 #18252]  INFO -- : Engine: connecting
+I, [2008-12-18T00:32:49.026312 #18252]  INFO -- : Engine: logging in
+I, [2008-12-18T00:32:49.343514 #18252]  INFO -- : Presence: latafak
+I, [2008-12-18T00:32:49.348358 #18252]  INFO -- : Presence: presence -- error - 
+I, [2008-12-18T00:32:49.349387 #18252]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-18T00:32:49.354908 #18252]  INFO -- : Presence: latafak
+I, [2008-12-18T00:32:49.356274 #18252]  INFO -- : Presence: presence -- error - 
+I, [2008-12-18T00:32:49.357110 #18252]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-18T00:32:49.408514 #18252]  INFO -- : Presence: latafak
+I, [2008-12-18T00:32:49.409430 #18252]  INFO -- : Presence: presence -- available (smutek) - 
+I, [2008-12-18T00:32:49.410271 #18252]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerk0420DB0D | available | smutek
+I, [2008-12-18T00:32:49.413531 #18252]  INFO -- : Presence: latafak
+I, [2008-12-18T00:32:49.414752 #18252]  INFO -- : Presence: presence -- available: dnd - dnd
+I, [2008-12-18T00:32:49.416139 #18252]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeEFD671D5 | dnd | 
+I, [2008-12-18T00:33:40.811616 #18284]  INFO -- : 
+I, [2008-12-18T00:33:40.983846 #18284]  INFO -- : 
+I, [2008-12-18T00:33:40.984504 #18284]  INFO -- : 
+I, [2008-12-18T00:33:40.985066 #18284]  INFO -- : stanting...
+I, [2008-12-18T00:33:41.054280 #18284]  INFO -- : Engine: connecting
+I, [2008-12-18T00:33:41.826249 #18284]  INFO -- : Engine: logging in
+I, [2008-12-18T00:33:42.252126 #18284]  INFO -- : Presence: latafak
+I, [2008-12-18T00:33:42.254700 #18284]  INFO -- : Presence: presence -- available (smutek) - 
+I, [2008-12-18T00:33:42.255788 #18284]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerk0420DB0D | available | smutek
+I, [2008-12-18T00:33:42.264636 #18284]  INFO -- : Presence: latafak
+I, [2008-12-18T00:33:42.266210 #18284]  INFO -- : Presence: presence -- available: dnd - dnd
+I, [2008-12-18T00:33:42.266998 #18284]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeEFD671D5 | dnd | 
+I, [2008-12-18T09:25:18.253254 #19664]  INFO -- : 
+I, [2008-12-18T09:25:18.427288 #19664]  INFO -- : 
+I, [2008-12-18T09:25:18.427951 #19664]  INFO -- : 
+I, [2008-12-18T09:25:18.428513 #19664]  INFO -- : stanting...
+I, [2008-12-18T09:25:18.502108 #19664]  INFO -- : Engine: connecting
+I, [2008-12-18T09:25:19.376559 #19664]  INFO -- : Engine: logging in
+I, [2008-12-18T09:25:19.757481 #19664]  INFO -- : Presence: latafak
+I, [2008-12-18T09:25:19.758994 #19664]  INFO -- : Presence: presence -- error - 
+I, [2008-12-18T09:25:19.762716 #19664]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-18T09:25:19.768854 #19664]  INFO -- : Presence: latafak
+I, [2008-12-18T09:25:19.770339 #19664]  INFO -- : Presence: presence -- error - 
+I, [2008-12-18T09:25:19.771163 #19664]  INFO -- : item presence change: cimcirimcia@chrome.pl |  | 
+I, [2008-12-18T09:25:19.814990 #19664]  INFO -- : Presence: latafak
+I, [2008-12-18T09:25:19.816452 #19664]  INFO -- : Presence: presence -- available: dnd - dnd
+I, [2008-12-18T09:25:19.817222 #19664]  INFO -- : item presence change: kacper.ciesla@gmail.com/HomeEFD671D5 | dnd | 
+I, [2008-12-18T09:25:19.821898 #19664]  INFO -- : Presence: latafak
+I, [2008-12-18T09:25:19.823045 #19664]  INFO -- : Presence: presence -- available (smutek) - 
+I, [2008-12-18T09:25:19.824033 #19664]  INFO -- : item presence change: kacper.ciesla@gmail.com/lerk0420DB0D | available | smutek
