@@ -39,9 +39,8 @@ module Ebim
 
     def message_received(jid,text)
       puts "base: message received"
-      # XXX like this it's not possible for gui to tell which resorce sent it
-      strip_jid jid
-      @gui.message_received jid, text
+      # XXX like this it's not possible for gui to tell which resorce sent it      
+      @gui.message_received strip_jid(jid), text
     end
 
     def send_message(jid,text)
