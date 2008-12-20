@@ -9,6 +9,15 @@ class MainView < ApplicationView
   #map("contacts_tree.selection_rows").to(:seloction_path)
 #  map :view => "photos_tree.model.root.user_object", :model => :search_terms, :using => [:default, nil]
 
+  define_signal :name => :get_row, :handler => :get_row
+
+  def get_row(model,transfer)
+    puts "getting row"
+    row = contacts_tree.get_last_selected_path_component
+    pp row
+    transfer[:row] = row
+  end
+
   #def initialize
   #  @contact_handles = Hash.new []
   #  @group_handles = {}

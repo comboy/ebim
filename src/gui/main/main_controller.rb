@@ -3,48 +3,39 @@ class MainController < ApplicationController
   set_view 'MainView'
   set_close_action :exit
 
-
   add_listener :type => :mouse, :components => [:contacts_tree]
 
-  def contacts_tree_mouse_released(bla)
-    
-    puts "THUENTOHEUNTOHUNSETH"
-    puts "===========#{bla} (#{bla.class}"
-    if bla.getClickCount == 2
-      puts "OOOOOOOOOOOO_OOOOOOOOOOOOO"
-      #puts "ooooooo #{view.contacts_tree.get_row_for_location bla.x, bla.y}"
-      node = view.contacts_tree.get_last_selected_path_component
-      if node.is_leaf
-        puts "aaaaaooooooo #{node.user_object.jid}"
-        m = MessageController.create_instance.open
-        m.contact = node.user_object
-        m.add_message 'ja', 'wassup'
-      end
-      
+  def initialize
+    @message_windows = {}
+    super
+  end
 
+  def contacts_tree_mouse_released(bla)    
+    if bla.getClickCount == 2
+      signal :get_row
+      node = transfer[:row]
+      if node.is_leaf
+        #m = MessageController.create_instance.open
+        #m.contact = node.user_object
+        m = window_for node.user_object.jid
+        m.add_message 'ja', 'wassup'
+        m.add_message 'bla', 'nofin'
+        m.add_message 'ja', 'soka'
+      end
     end
   end
 
 
-#  def contacts_list_mouse_released(view_state,event)
-#    puts "ORAJT"
-#    puts "ws: #{view_state.inspect}"
-#  end
   # Coming from outside
+
+  def message_received(jid,text)
+    puts "wwwwwwwwwwwwwweeeeeeee #{jid}, #{text}"
+    w = window_for(jid)
+    w.add_message(jid,text)
+  end
+
   def set_roster_items(items)
-    puts "controller set roster items"
-    pp items
     model.contacts = items
-#    update_view
-#    begin
-#      0.upto(view.contacts_tree.row_count) do |i|
-#        view.contacts_tree.expand_row(i)
-#      end
-#    rescue Exception => ex
-#      puts "AAAAAAAAAAAAAAAAAAAA"
-#      puts ex
-#
-#    end
     update_view
   end
 
@@ -64,6 +55,16 @@ class MainController < ApplicationController
       puts "EEEEEEEEEEEEX #{ex}"
     end
     update_view
+  end
+
+  # controller stuff
+
+  def window_for(jid)
+    @message_windows[jid] || (
+      m =  MessageController.create_instance.open
+      m.contact = model.contact_for_jid jid
+      @message_windows[jid] = m
+    )
   end
 
 end

@@ -43,7 +43,7 @@ module Ebim
 
       roster.add_roster_listener MyRosterListener.new self
 
-      @chat = conn1.chat_manager.add_chat_listener MyChatListener.new
+      @chat = conn1.chat_manager.add_chat_listener MyChatListener.new(@base)
 
 
 
@@ -88,19 +88,31 @@ module Ebim
 
   class MyChatListener
     include org.jivesoftware.smack.ChatManagerListener
+
+    def initialize(base)
+      @base = base
+    end
+
     def chat_created(chat,locally)
       chat.send_message "watta"
+      chat.add_message_listener MyMessageListener.new(@base)
+      puts "fok"
       puts chat
     end
   end
   
 
   # Implements MessageListener to print message body to STDOUT
-  class StdoutMessageListener
+  class MyMessageListener
     include org.jivesoftware.smack.MessageListener
+
+    def initialize(base)
+      @base = base
+    end
 
     def processMessage(chat, message)
       puts "#{chat.participant}: #{message.body}" if !message.body.empty?
+      @base.message_received chat.participant, message.body unless message.body.empty?
     end
   end
 

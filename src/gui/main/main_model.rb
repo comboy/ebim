@@ -27,6 +27,10 @@ class MainModel
     @tree_model = nil
   end
 
+  def contact_for_jid(jid)
+    @contacts.find {|c| c.jid == jid}
+  end
+
   def tree_model
     @tree_model ||= build_tree_nodes(contacts)
   end
