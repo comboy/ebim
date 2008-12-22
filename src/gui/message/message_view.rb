@@ -3,8 +3,12 @@ class MessageView < ApplicationView
 
   map :view => "info_label.text", :model => 'contact', :using => :contact_label
   map :view => "talk_text_pane.text", :model => 'talk'
-  map :view => "talk_EditorPane.text", :model => 'new_message', :using => :update_editor
+  map :view => "talk_EditorPane.text", :model => 'new_message', :using => [nil,:update_editor]
+  map :view => 'java_window.title', :model => 'window_title', :using => [:same, nil]
 
+  def same(shit)
+    shit
+  end
 
   def contact_label(contact)
     return "???" unless contact
@@ -12,7 +16,7 @@ class MessageView < ApplicationView
   end
 
   def update_editor(text)
-    
+    text
   end
 
   def load

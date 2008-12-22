@@ -7,4 +7,8 @@ class MessageModel
     @talk = '<html><hr>'
   end
 
+  def window_title
+    "Rozmowa z #{@contact.name}" if @contact
+  end
+
 end
