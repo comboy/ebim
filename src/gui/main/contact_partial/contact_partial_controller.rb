@@ -14,5 +14,10 @@ class ContactPartialController < ApplicationController
     model.contact = contact
     update_view
   end
+
+  def get_java_window
+    signal :get_java_window
+    transfer[:java_window]
+  end
   
 end

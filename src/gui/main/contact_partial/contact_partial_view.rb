@@ -31,5 +31,12 @@ class ContactPartialView < ApplicationView
     ImageIcon.new(java_window.get_class.get_resource("/gui/images/status/#{image}"));
   end
 
+  define_signal :name => :get_java_window, :handler => :get_java_window
+
+  def get_java_window(model,transfer)
+    transfer[:java_window] = java_window
+  end
+
+
 
 end

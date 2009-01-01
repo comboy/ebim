@@ -14,7 +14,7 @@ class ContactPartialRenderer
       i = ContactPartialController.create_instance
       i.selected = selected
       i.set_contact value.user_object#.java_object
-      i.view.get_field_value("java_window")
+      i.get_java_window
     else
       default = DefaultTreeCellRenderer.new
       default.get_tree_cell_renderer_component(tree, value, selected, expanded,

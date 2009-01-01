@@ -1,7 +1,7 @@
 require 'main_frame_class'
 class MainView < ApplicationView
-  #set_java_class 'gui.main.MainFrame'
-  set_class 'MainFrameClass'
+  set_java_class 'gui.main.MainFrame'
+  #set_class 'MainFrameClass'
 
   map :view => "contacts_tree.model", :model => 'tree_model'#, :using => [:build_tree_nodes, nil]
   map :view => "contacts_tree.cell_renderer", :model => 'renderer'
