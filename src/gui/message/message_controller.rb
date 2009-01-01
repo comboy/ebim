@@ -13,7 +13,7 @@ class MessageController < ApplicationController
       add_message('ja',model.new_message)
       #model.new_message = ''
       #update_view
-      puts "------ #{view.talk_editor_pane.text}"
+      #puts "------ #{view.talk_editor_pane.text}"
     end
   end
 

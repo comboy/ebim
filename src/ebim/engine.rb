@@ -18,14 +18,7 @@ module Ebim
         conn1 = org.jivesoftware.smack.XMPPConnection.new(config);
         #puts "connect"
         debug "connecting"
-        begin
-          conn1.connect
-        rescue org.jivesoftware.smack.XMPPException => ex
-          #TODO FIXME connection error handling
-          raise "TODO: handle me ! Could not connect to server"
-          puts "EX!!! #{ex} :: #{ex.class}"
-          return
-        end
+        conn1.connect
         org.jivesoftware.smack.SASLAuthentication.supportSASLMechanism("PLAIN", 0);
         #puts "login"
 
@@ -50,15 +43,10 @@ module Ebim
 
       roster.add_roster_listener MyRosterListener.new self
 
-      @chat_manager = conn1.chat_manager
-      @chat_manager.add_chat_listener MyChatListener.new(@base)
+      @chat = conn1.chat_manager.add_chat_listener MyChatListener.new(@base)
 
 
 
-
-    end
-
-    def send_message(jid,text)
 
     end
 
