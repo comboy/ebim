@@ -69,7 +69,6 @@ public class MessageFrame extends javax.swing.JFrame {
     jScrollPane2.setBackground(new java.awt.Color(255, 255, 255));
 
     talkEditorPane.setBackground(new java.awt.Color(255, 255, 255));
-    talkEditorPane.setText("vvv");
     jScrollPane2.setViewportView(talkEditorPane);
 
     jSplitPane1.setBottomComponent(jScrollPane2);
@@ -78,7 +77,6 @@ public class MessageFrame extends javax.swing.JFrame {
     talkTextPane.setContentType("text/html");
     talkTextPane.setEditable(false);
     jScrollPane3.setViewportView(talkTextPane);
-    talkTextPane.getAccessibleContext().setAccessibleDescription("text/html");
 
     jSplitPane1.setLeftComponent(jScrollPane3);
 

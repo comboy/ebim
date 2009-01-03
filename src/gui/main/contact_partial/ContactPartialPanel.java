@@ -48,19 +48,23 @@ public class ContactPartialPanel extends javax.swing.JPanel{
 
     setBackground(new java.awt.Color(255, 255, 255));
     setAutoscrolls(true);
+    setPreferredSize(null);
 
     name_label.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gui/images/status/available.png"))); // NOI18N
     name_label.setText("jLabel1");
+    name_label.setMaximumSize(null);
+    name_label.setMinimumSize(null);
+    name_label.setPreferredSize(null);
 
     javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
     this.setLayout(layout);
     layout.setHorizontalGroup(
       layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addComponent(name_label, javax.swing.GroupLayout.DEFAULT_SIZE, 190, Short.MAX_VALUE)
+      .addComponent(name_label, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE)
     );
     layout.setVerticalGroup(
       layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addComponent(name_label, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 29, Short.MAX_VALUE)
+      .addComponent(name_label, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
     );
   }// </editor-fold>//GEN-END:initComponents
 

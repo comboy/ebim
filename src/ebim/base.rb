@@ -6,8 +6,15 @@ module Ebim
     attr_accessor :roster
     attr_accessor :config
 
+    def self.instance
+      @@instance
+    end
+
     def initialize
       @logger = ::Logger.new "/comboy/projects/ebim/ebim.log"
+      
+      # yeah, maybe I'll implement singleton
+      @@instance = self
 
       debug ""
       debug ""

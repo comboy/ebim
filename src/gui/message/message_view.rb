@@ -3,7 +3,7 @@ class MessageView < ApplicationView
 
   map :view => "info_label.text", :model => 'contact', :using => :contact_label
   map :view => "talk_text_pane.text", :model => 'talk'
-  map :view => "talk_EditorPane.text", :model => 'new_message', :using => :update_editor
+  map :view => "talk_EditorPane.text", :model => 'new_message', :using => [:update_editor,:update_editor_set]
 
 
   def contact_label(contact)
@@ -12,9 +12,14 @@ class MessageView < ApplicationView
   end
 
   def update_editor(text)
-    
+    text
   end
 
+  def update_editor_set(text)    
+    text
+  end
+
+  
   def load
     #move_to_center
   end

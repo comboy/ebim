@@ -18,6 +18,12 @@ class MainView < ApplicationView
     transfer[:row] = row
   end
 
+  define_signal :name => :refresh_contacts, :handler => :refresh_contacts
+
+  def refresh_contacts(model,transfer)
+    contacts_tree.repaint
+  end
+
   #def initialize
   #  @contact_handles = Hash.new []
   #  @group_handles = {}

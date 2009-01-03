@@ -50,7 +50,7 @@ class MainController < ApplicationController
   def item_update(blah)
     puts "shold update some"
     begin
-      view.contacts_tree.repaint
+      signal :refresh_contacts
     rescue Exception => ex
       puts "EEEEEEEEEEEEX #{ex}"
     end

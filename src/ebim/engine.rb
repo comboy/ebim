@@ -15,7 +15,7 @@ module Ebim
         config = org.jivesoftware.smack.ConnectionConfiguration.new("jabster.pl", 5222,'jabster.pl');
         config.setSASLAuthenticationEnabled(true);
 
-        conn1 = org.jivesoftware.smack.XMPPConnection.new(config);
+        @conn = conn1 = org.jivesoftware.smack.XMPPConnection.new(config);
         #puts "connect"
         debug "connecting"
         conn1.connect
@@ -45,9 +45,15 @@ module Ebim
 
       @chat = conn1.chat_manager.add_chat_listener MyChatListener.new(@base)
 
+    end
 
-
-
+    def send_message(jid,msg)
+      puts "send message #{jid} #{msg}"
+      #chat = @conn.chat_manager.create_chat jid, MyChatListener.new(@base)
+      #chat.send_message msg
+      mess = org.jivesoftware.smack.packet.Message.new(jid,org.jivesoftware.smack.packet.Message::Type.chat)
+      mess.body = msg
+      @conn.send_packet(mess)
     end
 
   class MyRosterListener

@@ -10,9 +10,10 @@ class MessageController < ApplicationController
     if ev.key_code == 10
       #@m,t = view_state
       update_model(view_state.first,:new_message)
+      Ebim::Base.instance.send_message(model.contact.jid,model.new_message)
       add_message('ja',model.new_message)
-      #model.new_message = ''
-      #update_view
+      model.new_message = ''
+      update_view
       #puts "------ #{view.talk_editor_pane.text}"
     end
   end
