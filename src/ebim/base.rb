@@ -11,7 +11,7 @@ module Ebim
     end
 
     def initialize
-      @logger = ::Logger.new "/comboy/projects/ebim/ebim.log"
+      @logger = ::Logger.new File.join(Ebim.conf_dir,"ebim.log")
       
       # yeah, maybe I'll implement singleton
       @@instance = self

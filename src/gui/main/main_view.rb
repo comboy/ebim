@@ -22,6 +22,10 @@ class MainView < ApplicationView
 
   def refresh_contacts(model,transfer)
     contacts_tree.repaint
+    puts "WWWWWWWWWWWWWWWWWWWWWWWWOOOOOOOOOOOOOO"
+    puts contacts_tree.parent
+    puts contacts_tree.layout
+
   end
 
   #def initialize

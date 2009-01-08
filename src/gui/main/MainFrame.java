@@ -43,6 +43,7 @@ public class MainFrame extends javax.swing.JFrame {
     contacts_tree = new javax.swing.JTree();
     jMenuBar1 = new javax.swing.JMenuBar();
     jMenu1 = new javax.swing.JMenu();
+    menu_add_contact = new javax.swing.JMenuItem();
     jMenu2 = new javax.swing.JMenu();
 
     setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -56,6 +57,16 @@ public class MainFrame extends javax.swing.JFrame {
     jScrollPane1.setViewportView(contacts_tree);
 
     jMenu1.setText("File");
+
+    menu_add_contact.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_A, java.awt.event.InputEvent.CTRL_MASK));
+    menu_add_contact.setText("Dodaj kontakt...");
+    menu_add_contact.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
+        menu_add_contactActionPerformed(evt);
+      }
+    });
+    jMenu1.add(menu_add_contact);
+
     jMenuBar1.add(jMenu1);
 
     jMenu2.setText("Edit");
@@ -67,9 +78,9 @@ public class MainFrame extends javax.swing.JFrame {
     getContentPane().setLayout(layout);
     layout.setHorizontalGroup(
       layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addComponent(jToolBar1, javax.swing.GroupLayout.DEFAULT_SIZE, 314, Short.MAX_VALUE)
-      .addComponent(jComboBox1, javax.swing.GroupLayout.Alignment.TRAILING, 0, 314, Short.MAX_VALUE)
-      .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 314, Short.MAX_VALUE)
+      .addComponent(jToolBar1, javax.swing.GroupLayout.DEFAULT_SIZE, 189, Short.MAX_VALUE)
+      .addComponent(jComboBox1, javax.swing.GroupLayout.Alignment.TRAILING, 0, 189, Short.MAX_VALUE)
+      .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 189, Short.MAX_VALUE)
     );
     layout.setVerticalGroup(
       layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -83,6 +94,10 @@ public class MainFrame extends javax.swing.JFrame {
 
     pack();
   }// </editor-fold>//GEN-END:initComponents
+
+    private void menu_add_contactActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menu_add_contactActionPerformed
+        // TODO add your handling code here:
+}//GEN-LAST:event_menu_add_contactActionPerformed
 
     /**
     * @param args the command line arguments
@@ -107,6 +122,7 @@ public class MainFrame extends javax.swing.JFrame {
   private javax.swing.JMenuBar jMenuBar1;
   private javax.swing.JScrollPane jScrollPane1;
   private javax.swing.JToolBar jToolBar1;
+  private javax.swing.JMenuItem menu_add_contact;
   // End of variables declaration//GEN-END:variables
 
 }

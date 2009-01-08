@@ -46,7 +46,7 @@ public class ContactPartialPanel extends javax.swing.JPanel{
 
     name_label = new javax.swing.JLabel();
 
-    setBackground(new java.awt.Color(255, 255, 255));
+    setBackground(new java.awt.Color(253, 252, 227));
     setAutoscrolls(true);
     setPreferredSize(null);
 
@@ -56,15 +56,19 @@ public class ContactPartialPanel extends javax.swing.JPanel{
     name_label.setMinimumSize(null);
     name_label.setPreferredSize(null);
 
-    javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
+    org.jdesktop.layout.GroupLayout layout = new org.jdesktop.layout.GroupLayout(this);
     this.setLayout(layout);
     layout.setHorizontalGroup(
-      layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addComponent(name_label, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE)
+      layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+      .add(layout.createSequentialGroup()
+        .add(name_label, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+        .addContainerGap(54, Short.MAX_VALUE))
     );
     layout.setVerticalGroup(
-      layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addComponent(name_label, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+      layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+      .add(layout.createSequentialGroup()
+        .addContainerGap(org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        .add(name_label, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
     );
   }// </editor-fold>//GEN-END:initComponents
 

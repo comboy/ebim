@@ -8,6 +8,19 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="File"/>
           </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="menu_add_contact">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+A"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Dodaj kontakt..."/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menu_add_contactActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
         </Menu>
         <Menu class="javax.swing.JMenu" name="jMenu2">
           <Properties>
@@ -40,9 +53,9 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jToolBar1" alignment="0" pref="314" max="32767" attributes="0"/>
-          <Component id="jComboBox1" alignment="1" pref="314" max="32767" attributes="0"/>
-          <Component id="jScrollPane1" alignment="0" pref="314" max="32767" attributes="0"/>
+          <Component id="jToolBar1" alignment="0" pref="189" max="32767" attributes="0"/>
+          <Component id="jComboBox1" alignment="1" pref="189" max="32767" attributes="0"/>
+          <Component id="jScrollPane1" alignment="0" pref="189" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">

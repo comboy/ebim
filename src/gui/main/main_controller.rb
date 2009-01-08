@@ -25,6 +25,10 @@ class MainController < ApplicationController
     end
   end
 
+  def menu_add_contact_action_performed
+    add_contact = AddContactController.create_instance.open
+  end
+
 
   # Coming from outside
 
@@ -50,7 +54,7 @@ class MainController < ApplicationController
   def item_update(blah)
     puts "shold update some"
     begin
-      signal :refresh_contacts
+   #   signal :refresh_contacts
     rescue Exception => ex
       puts "EEEEEEEEEEEEX #{ex}"
     end

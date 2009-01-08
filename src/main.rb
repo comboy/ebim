@@ -37,6 +37,7 @@ begin
   require 'ebim'
   require 'gui/main/main_controller'
   require 'gui/message/message_controller'
+  require 'gui/add_contact/add_contact_controller'
   puts "aaa"
   c = MainController.instance
   c.open
