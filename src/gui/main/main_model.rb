@@ -7,6 +7,7 @@ class MainModel
 
   attr_reader :contacts
   attr_accessor :selection_path
+  attr_reader :available_presences
   
 
   def initialize
@@ -67,6 +68,10 @@ class MainModel
       #root.add DefaultMutableTreeNode.new(::Ebim::Base::Contact.new('','ueo'), false)
     #end
     javax.swing.tree.DefaultTreeModel.new(root, true)
+  end
+
+  def available_presences
+    
   end
 
 end

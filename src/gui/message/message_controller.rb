@@ -1,7 +1,7 @@
 class MessageController < ApplicationController
   set_model 'MessageModel'
   set_view 'MessageView'
-  set_close_action :exit
+  set_close_action :close
 
   add_listener :type => :key, :components => ["talkEditorPane"]
 

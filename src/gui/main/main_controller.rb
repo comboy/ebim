@@ -46,6 +46,7 @@ class MainController < ApplicationController
   def set_roster_items(items)
     model.contacts = items
     update_view
+    signal :expand_all
   end
 
   def temp_easy_update items

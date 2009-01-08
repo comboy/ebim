@@ -38,7 +38,7 @@ public class MainFrame extends javax.swing.JFrame {
   private void initComponents() {
 
     jToolBar1 = new javax.swing.JToolBar();
-    jComboBox1 = new javax.swing.JComboBox();
+    combo_box_presence = new javax.swing.JComboBox();
     jScrollPane1 = new javax.swing.JScrollPane();
     contacts_tree = new javax.swing.JTree();
     jMenuBar1 = new javax.swing.JMenuBar();
@@ -51,7 +51,7 @@ public class MainFrame extends javax.swing.JFrame {
 
     jToolBar1.setRollover(true);
 
-    jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+    combo_box_presence.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Taka <b>sobie</b> sraka", "Item 2", "Item 3", "Item 4" }));
 
     contacts_tree.setRootVisible(false);
     jScrollPane1.setViewportView(contacts_tree);
@@ -79,7 +79,7 @@ public class MainFrame extends javax.swing.JFrame {
     layout.setHorizontalGroup(
       layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
       .addComponent(jToolBar1, javax.swing.GroupLayout.DEFAULT_SIZE, 189, Short.MAX_VALUE)
-      .addComponent(jComboBox1, javax.swing.GroupLayout.Alignment.TRAILING, 0, 189, Short.MAX_VALUE)
+      .addComponent(combo_box_presence, javax.swing.GroupLayout.Alignment.TRAILING, 0, 189, Short.MAX_VALUE)
       .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 189, Short.MAX_VALUE)
     );
     layout.setVerticalGroup(
@@ -89,7 +89,7 @@ public class MainFrame extends javax.swing.JFrame {
         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
         .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 353, Short.MAX_VALUE)
         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-        .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+        .addComponent(combo_box_presence, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
     );
 
     pack();
@@ -115,8 +115,8 @@ public class MainFrame extends javax.swing.JFrame {
     }
 
   // Variables declaration - do not modify//GEN-BEGIN:variables
+  private javax.swing.JComboBox combo_box_presence;
   private javax.swing.JTree contacts_tree;
-  private javax.swing.JComboBox jComboBox1;
   private javax.swing.JMenu jMenu1;
   private javax.swing.JMenu jMenu2;
   private javax.swing.JMenuBar jMenuBar1;

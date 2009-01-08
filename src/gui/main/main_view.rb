@@ -21,11 +21,23 @@ class MainView < ApplicationView
   define_signal :name => :refresh_contacts, :handler => :refresh_contacts
 
   def refresh_contacts(model,transfer)
+    begin
+    contacts_tree.invalidate
     contacts_tree.repaint
     puts "WWWWWWWWWWWWWWWWWWWWWWWWOOOOOOOOOOOOOO"
     puts contacts_tree.parent
     puts contacts_tree.layout
+    rescue Exception => ex
+      puts "!!!!!!!!!!! #{ex}"
+    end
+  end
 
+  define_signal :name => :expand_all, :handler => :expand_all
+  def expand_all(model,transfer)
+    0.upto(contacts_tree.row_count) do |i|
+        contacts_tree.expand_row i         
+    end
+    puts "expanding all.."
   end
 
   #def initialize
