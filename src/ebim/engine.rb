@@ -24,7 +24,8 @@ module Ebim
 
         debug "logging in"
         conn1.login('kompotek','bociankowo','eou')
-        roster = conn1.roster
+        @roster = roster = conn1.roster
+        @roster.subscription_mode = org.jivesoftware.smack.Roster::SubscriptionMode.accept_all
 
         #puts roster.entries
 
@@ -45,6 +46,10 @@ module Ebim
 
       @chat = conn1.chat_manager.add_chat_listener MyChatListener.new(@base)
 
+    end
+
+    def add_contact(jid,name)
+      @roster.create_entry(jid,name,nil)
     end
 
     def send_message(jid,msg)

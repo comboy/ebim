@@ -33,7 +33,9 @@ public class AddContactFrame extends javax.swing.JFrame {
 
     jLabel1 = new javax.swing.JLabel();
     textfield_jid = new javax.swing.JTextField();
-    jButton1 = new javax.swing.JButton();
+    button_add_contact = new javax.swing.JButton();
+    jLabel2 = new javax.swing.JLabel();
+    textfield_name = new javax.swing.JTextField();
 
     setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
     setTitle("Dodawanie kontaktu");
@@ -41,7 +43,9 @@ public class AddContactFrame extends javax.swing.JFrame {
 
     jLabel1.setText("JID:");
 
-    jButton1.setText("Dodaj kontakt");
+    button_add_contact.setText("Dodaj kontakt");
+
+    jLabel2.setText("Nazwa:");
 
     javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
     getContentPane().setLayout(layout);
@@ -50,11 +54,15 @@ public class AddContactFrame extends javax.swing.JFrame {
       .addGroup(layout.createSequentialGroup()
         .addContainerGap()
         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-          .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-            .addComponent(jLabel1)
+          .addComponent(button_add_contact, javax.swing.GroupLayout.Alignment.TRAILING)
+          .addGroup(layout.createSequentialGroup()
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+              .addComponent(jLabel1)
+              .addComponent(jLabel2))
             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-            .addComponent(textfield_jid, javax.swing.GroupLayout.DEFAULT_SIZE, 211, Short.MAX_VALUE))
-          .addComponent(jButton1, javax.swing.GroupLayout.Alignment.TRAILING))
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+              .addComponent(textfield_jid, javax.swing.GroupLayout.DEFAULT_SIZE, 210, Short.MAX_VALUE)
+              .addComponent(textfield_name, javax.swing.GroupLayout.DEFAULT_SIZE, 210, Short.MAX_VALUE))))
         .addContainerGap())
     );
     layout.setVerticalGroup(
@@ -62,10 +70,14 @@ public class AddContactFrame extends javax.swing.JFrame {
       .addGroup(layout.createSequentialGroup()
         .addContainerGap()
         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-          .addComponent(jLabel1)
-          .addComponent(textfield_jid, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+          .addComponent(textfield_jid, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+          .addComponent(jLabel1))
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+          .addComponent(jLabel2)
+          .addComponent(textfield_name, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        .addComponent(jButton1)
+        .addComponent(button_add_contact)
         .addContainerGap())
     );
 
@@ -84,9 +96,11 @@ public class AddContactFrame extends javax.swing.JFrame {
     }
 
   // Variables declaration - do not modify//GEN-BEGIN:variables
-  private javax.swing.JButton jButton1;
+  private javax.swing.JButton button_add_contact;
   private javax.swing.JLabel jLabel1;
+  private javax.swing.JLabel jLabel2;
   private javax.swing.JTextField textfield_jid;
+  private javax.swing.JTextField textfield_name;
   // End of variables declaration//GEN-END:variables
 
 }

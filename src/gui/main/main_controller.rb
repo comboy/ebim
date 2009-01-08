@@ -26,7 +26,12 @@ class MainController < ApplicationController
   end
 
   def menu_add_contact_action_performed
-    add_contact = AddContactController.create_instance.open
+    add_contact = AddContactController.instance
+    add_contact.open
+  end
+
+  def add_contact(jid,name)
+    puts "should now add contact #{jid} with name #{name}"
   end
 
 

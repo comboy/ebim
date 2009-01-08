@@ -1,5 +1,8 @@
 class MessageView < ApplicationView
   set_java_class 'gui.message.MessageFrame'
+  set_close_action :close
+
+
 
   map :view => "info_label.text", :model => 'contact', :using => :contact_label
   map :view => "talk_text_pane.text", :model => 'talk'

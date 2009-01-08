@@ -45,10 +45,12 @@ class MainModel
 
     root = DefaultMutableTreeNode.new("Jabber", true)
     contacts.each do |contact|
-      if contact.groups.empty?#nil? || contact.groups.empty?
-        puts "no contact groups"
-      else
-        contact.groups.each do |group|
+    groups = contact.groups
+    groups = ['Bez grupy'] if groups.empty?
+      #if contact.groups.empty?#nil? || contact.groups.empty?
+      #  puts "no contact groups"
+      #else
+        groups.each do |group|
           if @group_handles[group]
             #
           else
@@ -58,7 +60,7 @@ class MainModel
           end
           @group_handles[group].add DefaultMutableTreeNode.new(contact, false)
         end
-      end
+      #end
     end
     #search_results.each_with_index do |photo, index|
       #root.add DefaultMutableTreeNode.new("hello", false)

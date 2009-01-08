@@ -71,6 +71,10 @@ module Ebim
       @engine.set_presence(presence,status)
     end
 
+    def add_contact(jid,name)
+      @engine.add_contact(jid,name)
+    end
+
     def auth_failure
       @gui.show_error("Niepoprawne dane logowania do serwera jabbera")
       Gui::Account.new self, true
