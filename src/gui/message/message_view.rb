@@ -21,7 +21,7 @@ class MessageView < ApplicationView
 
   
   def load
-    #move_to_center
+    move_to_center
   end
 
 end

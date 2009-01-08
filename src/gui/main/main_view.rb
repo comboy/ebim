@@ -41,6 +41,7 @@ class MainView < ApplicationView
 
   def load
     "ojeeeeeeeeeeeeeeeeeeeeeeeeeeeeej"
+    move_to_center
   end
 
 
