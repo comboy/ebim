@@ -1,4 +1,8 @@
 include_class javax.swing.tree.DefaultMutableTreeNode
+include_class javax.swing.DefaultComboBoxModel
+include_class javax.swing.MutableComboBoxModel
+include_class javax.swing.DefaultComboBoxModel
+
 
 #include_class "gui.main.contact_partial.ContactPartial"
 require 'contact_partial/contact_partial_renderer'
@@ -25,7 +29,12 @@ class MainModel
   end
 
   def presence_list_renderer
+    puts "getting presence list renderer"
     @presence_list_renderer ||= PresenceListRenderer.new    
+  end
+
+  def presence_list_model
+    @presence_model ||= build_presence_list_model    
   end
 
   def contacts=(contacts)
@@ -35,6 +44,21 @@ class MainModel
 
   def contact_for_jid(jid)
     @contacts.find {|c| c.jid == jid}
+  end
+
+
+  def build_presence_list_model
+    begin
+    model = DefaultComboBoxModel.new
+    model.add_element :available
+    model.add_element :chat
+    model.add_element :dnd
+    model.add_element :away
+    model.add_element :unavailable
+    model
+    rescue Exception => ex
+      puts "EX! #{ex}"
+    end
   end
 
   def tree_model

@@ -6,6 +6,7 @@ class MainView < ApplicationView
 
   map :view => "contacts_tree.model", :model => 'tree_model'#, :using => [:build_tree_nodes, nil]
   map :view => "contacts_tree.cell_renderer", :model => 'renderer'
+  map :view => "combo_box_presence.model", :model => 'presence_list_model'#, :using => [:build_tree_nodes, nil]
   map :view => "combo_box_presence.renderer", :model => 'presence_list_renderer'
   map :view => "contacts_tree.selection_rows", :model => :selection_path#, :using => [:one,:two]
 
@@ -85,6 +86,18 @@ class MainView < ApplicationView
     # this looks just bad
     include_class 'gui.main.MainFrame'
     ImageIcon.new(@@fokin_szit.get_resource("/gui/images/status/#{image}"));
+  end
+
+  PRESENCE_NAMES = {
+    :available => 'Dostępny',
+    :dnd => 'Nie przeszkadzać',
+    :away => 'Zaraz wracam',
+    :chat => 'Chętny :>',
+    :unavailable => 'Niedostępny'
+  }
+
+  def self.name_for_presence(presence)
+    PRESENCE_NAMES[presence.to_sym]
   end
 
 
