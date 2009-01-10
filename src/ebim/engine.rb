@@ -71,9 +71,9 @@ module Ebim
 
     def presence_changed(presence)
       begin
-      debug "latafak"
+      #debug "latafak"
       #debug "presence received #{presence}"                                                                                                                                                                                                                                                                                                                                                                                                                                                               }"
-      puts "PRESENCE"
+      #puts "PRESENCE"
       #puts "type = #{presence.type} (#{presence.mode}, status = #{presence.status}"
       #puts "from = #{presence.from} (#{presence.from.class})"
       #pp presence

@@ -1,3 +1,6 @@
+include_class "javax.swing.ImageIcon"
+
+
 class MainController < ApplicationController
   set_model 'MainModel'
   set_view 'MainView'
@@ -38,7 +41,7 @@ class MainController < ApplicationController
   # Coming from outside
 
   def message_received(jid,text)
-    puts "wwwwwwwwwwwwwweeeeeeee #{jid}, #{text}"
+    puts "msg received #{jid}, #{text}"
     w = window_for(jid)
     w.add_message(jid,text)
   end
@@ -76,5 +79,7 @@ class MainController < ApplicationController
       @message_windows[jid] = m
     )
   end
+
+
 
 end

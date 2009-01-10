@@ -4,14 +4,14 @@ class ContactPartialModel
 
   def label
     #"watta"
-    pp @contact
+    #pp @contact
 
-    puts "hmmmmmmmm"
-    puts @contact.class
+    #puts "hmmmmmmmm"
+    #puts @contact.class
     if @contact.nil?
       "-"
     else
-      puts @contact.name
+      #puts @contact.name
       if @contact.presence == :unavailable
         "<html>#{@contact.name}<br>bardzo długi opis ciekawe co się z tym stanie hehe hehe ehe "
       else

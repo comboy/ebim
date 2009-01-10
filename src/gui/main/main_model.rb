@@ -2,6 +2,7 @@ include_class javax.swing.tree.DefaultMutableTreeNode
 
 #include_class "gui.main.contact_partial.ContactPartial"
 require 'contact_partial/contact_partial_renderer'
+require 'presence_list_renderer'
 
 class MainModel
 
@@ -15,12 +16,16 @@ class MainModel
   end
 
   def selection_path=(x)
-    puts "XXX#{x}"
+    puts "[I am doing nothing] Selection path#{x}"
   end
 
   def renderer
     #i = ContactPartielController.
     @renderer ||= ContactPartialRenderer.new
+  end
+
+  def presence_list_renderer
+    @presence_list_renderer ||= PresenceListRenderer.new    
   end
 
   def contacts=(contacts)
