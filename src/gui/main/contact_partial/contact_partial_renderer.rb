@@ -13,10 +13,17 @@ class ContactPartialRenderer
     if leaf
       i = ContactPartialController.create_instance
       i.selected = selected
-      i.set_contact value.user_object#.java_object
+      i.set_contact value.user_object#.java_object      
       i.get_java_window
     else
       default = DefaultTreeCellRenderer.new
+      #include_class 'gui.main.MainFrame'
+      begin
+      default.open_icon = ImageIcon.new(MainView.fokin_szit.get_resource("/gui/images/triangle-d.gif"));
+      default.closed_icon = ImageIcon.new(MainView.fokin_szit.get_resource("/gui/images/triangle-l.gif"));
+      rescue Exception => ex
+        puts "!!!!!!!!!!! #{ex}"
+      end
       default.get_tree_cell_renderer_component(tree, value, selected, expanded,
             leaf, row, hasFocus);
     end

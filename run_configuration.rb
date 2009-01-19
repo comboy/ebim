@@ -10,7 +10,7 @@ configuration do |c|
   c.source_exclude_filter = []
 
   c.compile_ruby_files = true
-  #c.java_lib_files = []  
+  #c.java_lib_files = []
   c.java_lib_dirs = ['lib/java']
   #c.files_to_copy = []
 

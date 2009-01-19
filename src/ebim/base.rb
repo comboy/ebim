@@ -3,6 +3,8 @@ require 'logger'
 module Ebim
   class Base
 
+    @@instance = nil
+    
     attr_accessor :roster
     attr_accessor :config
 
@@ -23,6 +25,7 @@ module Ebim
       #@config = Config.new self
       @roster = Roster.new
       @engine = Engine.new self
+      @config = Config.new self
       #@gui = Gui.new self
 #      @gui.show_error "ueonth"
      # @account = Gui::Account.new self

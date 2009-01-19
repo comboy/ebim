@@ -37,6 +37,10 @@ class MainModel
     @presence_model ||= build_presence_list_model    
   end
 
+  def presence_selected_item
+    @presence_selected_item ||= :unavailable
+  end
+
   def contacts=(contacts)
     @contacts = contacts
     @tree_model = nil

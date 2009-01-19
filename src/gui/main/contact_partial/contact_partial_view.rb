@@ -36,6 +36,14 @@ class ContactPartialView < ApplicationView
     transfer[:java_window] = java_window
   end
 
+  def load
+    java_window.maximum_size = nil
+    java_window.minimum_size = nil
+    java_window.preferred_size = nil
+    #puts "loading partial.. parent: #{java_window.parent}"
+
+  end
+
 
 
 end

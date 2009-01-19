@@ -13,6 +13,10 @@ class MainController < ApplicationController
     super
   end
 
+  def combo_box_presence_action_performed
+    puts "Coś się wybrało..."
+  end
+
   def contacts_tree_mouse_released(bla)    
     if bla.getClickCount == 2
       signal :get_row
@@ -31,6 +35,11 @@ class MainController < ApplicationController
   def menu_add_contact_action_performed
     add_contact = AddContactController.instance
     add_contact.open
+  end
+
+  def menu_preferences_action_performed
+    preferences = PreferencesController.instance
+    preferences.open
   end
 
   def add_contact(jid,name)
