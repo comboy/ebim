@@ -8,6 +8,7 @@ class PreferencesModel
     @config = Ebim::Base.instance.config
     @jid = @config[:jid]    
     @password = @config[:password]
+    @skin = @config[:skin]
   end
 #
 #  def jid

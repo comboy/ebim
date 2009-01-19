@@ -84,7 +84,7 @@ module Ebim
     end
 
     def connection_error
-      @gui.show_error 'Nie udało się połączyć z serwerem jabbera'
+      @gui.connection_error
     end
 
     def connect

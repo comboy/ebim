@@ -11,7 +11,16 @@ module Ebim
 
     def connect
       #org.jivesoftware.smack.XMPPConnection.DEBUG_ENABLED = true;
-      config = org.jivesoftware.smack.ConnectionConfiguration.new("jabster.pl", 5222,'jabster.pl');
+      
+      # Read configuration data
+      config = Ebim::Base.instance.config
+      jid = config[:jid]
+      login,server = jid.split '@'
+      password = config[:password]
+
+
+
+      config = org.jivesoftware.smack.ConnectionConfiguration.new("jabber.softwarelab.eu", 5222, server);
       config.setSASLAuthenticationEnabled(true);
 
       @conn = conn1 = org.jivesoftware.smack.XMPPConnection.new(config);
@@ -20,7 +29,7 @@ module Ebim
       org.jivesoftware.smack.SASLAuthentication.supportSASLMechanism("PLAIN", 0);
 
       debug "logging in"
-      conn1.login('kompotek','bociankowo','ebim')
+      conn1.login(login,password,'ebim')
 
       @roster = roster = conn1.roster
       @roster.subscription_mode = org.jivesoftware.smack.Roster::SubscriptionMode.accept_all
@@ -44,9 +53,10 @@ module Ebim
       @chat = conn1.chat_manager.add_chat_listener MyChatListener.new(@base)
 
       # Settinf self initial presence
-      set_presence(:dnd,'wasaaabi')
+      set_presence(:dnd,'Ebim test')
 
-    rescue
+    rescue Exception => ex
+      puts ex
       @base.connection_error
 
     end
@@ -65,12 +75,18 @@ module Ebim
     end
 
     def set_presence(presence,status=nil)
+      if presence == :unavailable
+        @conn.disconnect
+        @base.roster_items = []
+        return
+      end
       packet = org.jivesoftware.smack.packet.Presence.new(org.jivesoftware.smack.packet.Presence::Type.available)
       # available by default
       # FIXME This is wrong - some validation or whatever
       packet.mode = org.jivesoftware.smack.packet.Presence::Mode.send(presence)
       packet.status = 'ebim test'
       @conn.send_packet(packet)
+
     end
 
     class MyRosterListener

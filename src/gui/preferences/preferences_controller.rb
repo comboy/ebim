@@ -8,6 +8,7 @@ class PreferencesController < ApplicationController
     config = Ebim::Base.instance.config
     config[:jid] = model.jid
     config[:password] = model.password
+    config[:skin] = model.skin
     close
   end
 

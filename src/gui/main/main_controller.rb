@@ -45,8 +45,23 @@ class MainController < ApplicationController
   end
 
   def menu_preferences_action_performed
+    show_preferences
+  end
+
+  def toggle_hide_action_performed
+    
+  end
+
+  def show_preferences
     preferences = PreferencesController.instance
     preferences.open
+  end
+
+  def connection_error
+    show_error 'Nie udało się połączyć z serwerem jabbera'
+    show_preferences
+    model.presence_selected_item = :unavailable
+    update_view
   end
 
   def menu_exit_action_performed
