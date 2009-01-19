@@ -83,6 +83,10 @@ module Ebim
       Gui::Account.new self, true
     end
 
+    def connection_error
+      @gui.show_error 'Nie udało się połączyć z serwerem jabbera'
+    end
+
     def connect
       @engine.connect
     end

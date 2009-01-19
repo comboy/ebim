@@ -13,6 +13,12 @@ class MainController < ApplicationController
     super
   end
 
+  def show_error(msg,title='Wystąpił błąd')
+    transfer[:msg] = msg
+    signal :show_error
+  end
+
+
   def combo_box_presence_action_performed
     puts "Coś się wybrało..."
     #update_model(view_state.model, :presence_selected_item)

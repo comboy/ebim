@@ -42,15 +42,15 @@ begin
   puts "#{org.jvnet.substance.skin.SubstanceCremeCoffeeLookAndFeel.java_class}"
   include_class org.jvnet.substance.skin
   include Monkeybars::TaskProcessor
-  #on_edt do
-  #javax.swing.UIManager.set_look_and_feel("org.jvnet.substance.skin.SubstanceCremeLookAndFeel")
+  on_edt do
+  javax.swing.UIManager.set_look_and_feel("org.jvnet.substance.skin.SubstanceNebulaBrickWallLookAndFeel")
             #javax.swing.UIManager.getSystemLookAndFeelClassName())
   Ebim::Base.new
 
   c = MainController.instance
   c.open
   puts "Base initialized"
-  #end
+  end
   # Your app logic here, i.e. YourController.instance.open
 rescue Exception => e
   $stderr << "Error in application:\n#{e}\n#{e.message}"

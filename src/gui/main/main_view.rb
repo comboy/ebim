@@ -1,6 +1,7 @@
 require 'main_frame_class'
 class MainView < ApplicationView
   @@fokin_szit = nil
+  @@szit_win = nil
   set_java_class 'gui.main.MainFrame'
   #set_class 'MainFrameClass'
 
@@ -63,6 +64,7 @@ class MainView < ApplicationView
 
   def load
     @@fokin_szit = java_window.get_class
+    @@szit_win = java_window
     #puts "ojeeeeeeeeeeeeeeeeeeeeeeeeeeeeej"
     #puts java_window.get_class
     #puts java_window.get_class.class
@@ -93,10 +95,27 @@ class MainView < ApplicationView
     ]
   end
 
+  define_signal :name => :show_error, :handler => :show_error
+
+  def show_error(model,transfer)
+    puts "got #{transfer[:msg]}"
+    show_error_dialog transfer[:msg]
+  end
+
+  def show_error_dialog(msg,title='Wystąpił błąd')
+    javax.swing.JOptionPane.showMessageDialog(java_window,
+    msg,
+    title,
+    javax.swing.JOptionPane::ERROR_MESSAGE);
+  end
+
   def self.fokin_szit
     @@fokin_szit
   end
 
+  def self.java_window
+    @@szit_win
+  end
     # commons
 
   def self.icon_for_presence(presence)

@@ -39,6 +39,7 @@ public class MainFrame extends javax.swing.JFrame {
 
     jTextField1 = new javax.swing.JTextField();
     jToolBar1 = new javax.swing.JToolBar();
+    toggle_hide = new javax.swing.JToggleButton();
     combo_box_presence = new javax.swing.JComboBox();
     jScrollPane1 = new javax.swing.JScrollPane();
     contacts_tree = new javax.swing.JTree();
@@ -57,6 +58,13 @@ public class MainFrame extends javax.swing.JFrame {
     setTitle("EBIM - Even Better Instant Messanger");
 
     jToolBar1.setRollover(true);
+
+    toggle_hide.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gui/images/icon-client-gray.gif"))); // NOI18N
+    toggle_hide.setToolTipText("Ukryj niedostępnych");
+    toggle_hide.setFocusable(false);
+    toggle_hide.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+    toggle_hide.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+    jToolBar1.add(toggle_hide);
 
     combo_box_presence.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Taka <b>sobie</b> sraka", "Item 2", "Item 3", "Item 4" }));
 
@@ -146,6 +154,7 @@ public class MainFrame extends javax.swing.JFrame {
   private javax.swing.JMenuItem menu_add_contact;
   private javax.swing.JMenuItem menu_exit;
   private javax.swing.JMenuItem menu_preferences;
+  private javax.swing.JToggleButton toggle_hide;
   // End of variables declaration//GEN-END:variables
 
 }

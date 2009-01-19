@@ -40,8 +40,8 @@ public class PreferencesFrame extends javax.swing.JFrame {
     password_field = new javax.swing.JPasswordField();
     jPanel2 = new javax.swing.JPanel();
     jLabel3 = new javax.swing.JLabel();
-    jComboBox1 = new javax.swing.JComboBox();
-    jButton1 = new javax.swing.JButton();
+    combo_box_skin = new javax.swing.JComboBox();
+    button_save = new javax.swing.JButton();
 
     setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
     setTitle("Ustawienia");
@@ -90,7 +90,7 @@ public class PreferencesFrame extends javax.swing.JFrame {
 
     jLabel3.setText("Skórka");
 
-    jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+    combo_box_skin.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "CremeCoffee", "NebulaBrickWall", "BusinessBlackSteel", "Autumn", "RavenGraphite", "OfficeSilver2007", "EmeraldDusk", "Sahara" }));
 
     javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
     jPanel2.setLayout(jPanel2Layout);
@@ -100,7 +100,7 @@ public class PreferencesFrame extends javax.swing.JFrame {
         .addContainerGap(18, Short.MAX_VALUE)
         .addComponent(jLabel3)
         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-        .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addComponent(combo_box_skin, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
         .addContainerGap())
     );
     jPanel2Layout.setVerticalGroup(
@@ -108,14 +108,14 @@ public class PreferencesFrame extends javax.swing.JFrame {
       .addGroup(jPanel2Layout.createSequentialGroup()
         .addContainerGap()
         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-          .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+          .addComponent(combo_box_skin, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
           .addComponent(jLabel3))
         .addContainerGap(70, Short.MAX_VALUE))
     );
 
     jTabbedPane1.addTab("Inne", jPanel2);
 
-    jButton1.setText("Zapisz");
+    button_save.setText("Zapisz");
 
     javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
     getContentPane().setLayout(layout);
@@ -123,7 +123,7 @@ public class PreferencesFrame extends javax.swing.JFrame {
       layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
       .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
         .addContainerGap(247, Short.MAX_VALUE)
-        .addComponent(jButton1)
+        .addComponent(button_save)
         .addContainerGap())
       .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 313, Short.MAX_VALUE)
     );
@@ -132,7 +132,7 @@ public class PreferencesFrame extends javax.swing.JFrame {
       .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
         .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 138, Short.MAX_VALUE)
         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-        .addComponent(jButton1)
+        .addComponent(button_save)
         .addContainerGap())
     );
 
@@ -151,9 +151,9 @@ public class PreferencesFrame extends javax.swing.JFrame {
     }
 
   // Variables declaration - do not modify//GEN-BEGIN:variables
+  private javax.swing.JButton button_save;
   private javax.swing.JCheckBox checkbox_remember;
-  private javax.swing.JButton jButton1;
-  private javax.swing.JComboBox jComboBox1;
+  private javax.swing.JComboBox combo_box_skin;
   private javax.swing.JLabel jLabel1;
   private javax.swing.JLabel jLabel2;
   private javax.swing.JLabel jLabel3;

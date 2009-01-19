@@ -21,6 +21,7 @@ module Ebim
 
       debug "logging in"
       conn1.login('kompotek','bociankowo','ebim')
+
       @roster = roster = conn1.roster
       @roster.subscription_mode = org.jivesoftware.smack.Roster::SubscriptionMode.accept_all
 
@@ -44,6 +45,9 @@ module Ebim
 
       # Settinf self initial presence
       set_presence(:dnd,'wasaaabi')
+
+    rescue
+      @base.connection_error
 
     end
 
