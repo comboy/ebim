@@ -8,8 +8,15 @@ class MainView < ApplicationView
   map :view => "contacts_tree.cell_renderer", :model => 'renderer'
   map :view => "combo_box_presence.model", :model => 'presence_list_model'#, :using => [:build_tree_nodes, nil]
   map :view => "combo_box_presence.renderer", :model => 'presence_list_renderer'
-  map :view => "combo_box_presence.selected_item", :model => 'presence_selected_item'
+  #map :view => "combo_box_presence.selected_item", :model => 'presence_selected_item'
   map :view => "contacts_tree.selection_rows", :model => :selection_path#, :using => [:one,:two]
+
+
+  # XXX Just temporary - problems with bindings
+  define_signal :name => :get_presence, :handler => :get_presence
+  def get_presence(model,transfer)
+    transfer[:presence] = combo_box_presence.selected_item
+  end
 
   define_signal :name => :get_row, :handler => :get_row
 
@@ -26,9 +33,6 @@ class MainView < ApplicationView
     begin
     contacts_tree.invalidate
     contacts_tree.repaint
-    #puts "WWWWWWWWWWWWWWWWWWWWWWWWOOOOOOOOOOOOOO"
-    #puts contacts_tree.parent
-    #puts contacts_tree.layout
     rescue Exception => ex
       puts "!!!!!!!!!!! #{ex}"
     end
@@ -70,7 +74,10 @@ class MainView < ApplicationView
     else
       move_to_center
     end
-    #java_window.position.y = 300
+
+    if last_size = Ebim::Base.instance.config[:main_window_size]
+      @main_view_component.set_size(*last_size)
+    end
 
   end
 
@@ -79,6 +86,10 @@ class MainView < ApplicationView
     Ebim::Base.instance.config[:main_window_location] = [
       @main_view_component.location.x,
       @main_view_component.location.y
+    ]
+    Ebim::Base.instance.config[:main_window_size] = [
+      @main_view_component.width,
+      @main_view_component.height
     ]
   end
 

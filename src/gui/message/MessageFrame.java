@@ -76,6 +76,7 @@ public class MessageFrame extends javax.swing.JFrame {
     talkTextPane.setBackground(java.awt.Color.white);
     talkTextPane.setContentType("text/html");
     talkTextPane.setEditable(false);
+    talkTextPane.setText("");
     jScrollPane3.setViewportView(talkTextPane);
 
     jSplitPane1.setLeftComponent(jScrollPane3);

@@ -63,7 +63,8 @@ module Ebim
     def set_presence(presence,status=nil)
       packet = org.jivesoftware.smack.packet.Presence.new(org.jivesoftware.smack.packet.Presence::Type.available)
       # available by default
-      packet.mode = org.jivesoftware.smack.packet.Presence::Mode.dnd
+      # FIXME This is wrong - some validation or whatever
+      packet.mode = org.jivesoftware.smack.packet.Presence::Mode.send(presence)
       packet.status = 'ebim test'
       @conn.send_packet(packet)
     end

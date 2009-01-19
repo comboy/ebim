@@ -15,6 +15,10 @@ class MainController < ApplicationController
 
   def combo_box_presence_action_performed
     puts "Coś się wybrało..."
+    #update_model(view_state.model, :presence_selected_item)
+    signal :get_presence
+    puts "got #{transfer[:presence]}"
+    Ebim::Base.instance.set_presence(transfer[:presence])
   end
 
   def contacts_tree_mouse_released(bla)    
@@ -25,9 +29,6 @@ class MainController < ApplicationController
         #m = MessageController.create_instance.open
         #m.contact = node.user_object
         m = window_for node.user_object.jid
-        m.add_message 'ja', 'wassup'
-        m.add_message 'bla', 'nofin'
-        m.add_message 'ja', 'soka'
       end
     end
   end
@@ -40,6 +41,10 @@ class MainController < ApplicationController
   def menu_preferences_action_performed
     preferences = PreferencesController.instance
     preferences.open
+  end
+
+  def menu_exit_action_performed
+    close
   end
 
   def add_contact(jid,name)

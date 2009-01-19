@@ -13,10 +13,11 @@ class MainModel
   attr_reader :contacts
   attr_accessor :selection_path
   attr_reader :available_presences
-  
+  attr_accessor :presence_selected_item
 
   def initialize
     @contacts = []
+    @presence_selected_item = :unavailable
   end
 
   def selection_path=(x)
@@ -35,10 +36,6 @@ class MainModel
 
   def presence_list_model
     @presence_model ||= build_presence_list_model    
-  end
-
-  def presence_selected_item
-    @presence_selected_item ||= :unavailable
   end
 
   def contacts=(contacts)
