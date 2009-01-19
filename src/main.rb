@@ -37,22 +37,23 @@ begin
   require 'gui/message/message_controller'
   require 'gui/add_contact/add_contact_controller'
   require 'gui/preferences/preferences_controller'
+  require 'gui/about/about_controller'
   puts "Creating main contreller instance"
   
   puts "#{org.jvnet.substance.skin.SubstanceCremeCoffeeLookAndFeel.java_class}"
   include_class org.jvnet.substance.skin
   include Monkeybars::TaskProcessor
-  #on_edt do
+  on_edt do
   Ebim::Base.new
 
-  #javax.swing.UIManager.set_look_and_feel("org.jvnet.substance.skin.Substance#{Ebim::Base.instance.config[:skin] || 'NebulaBrickWall'}LookAndFeel")
+  javax.swing.UIManager.set_look_and_feel("org.jvnet.substance.skin.Substance#{Ebim::Base.instance.config[:skin] || 'NebulaBrickWall'}LookAndFeel")
             #javax.swing.UIManager.getSystemLookAndFeelClassName())
-  #javax.swing.SwingUtilities.updateComponentTreeUI(MainView.java_window);
+  javax.swing.SwingUtilities.updateComponentTreeUI(MainView.java_window);
   
   c = MainController.instance
   c.open
   puts "Base initialized"
-  #end
+  end
   # Your app logic here, i.e. YourController.instance.open
 rescue Exception => e
   $stderr << "Error in application:\n#{e}\n#{e.message}"

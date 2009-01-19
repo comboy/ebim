@@ -20,7 +20,7 @@ module Ebim
 
 
 
-      config = org.jivesoftware.smack.ConnectionConfiguration.new("jabber.softwarelab.eu", 5222, server);
+      config = org.jivesoftware.smack.ConnectionConfiguration.new(server, 5222, server);
       config.setSASLAuthenticationEnabled(true);
 
       @conn = conn1 = org.jivesoftware.smack.XMPPConnection.new(config);

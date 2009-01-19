@@ -13,7 +13,7 @@ class ContactPartialModel
     else
       #puts @contact.name
       if @contact.presence == :unavailable
-        "<html>#{@contact.name}<br>bardzo długi opis ciekawe co się z tym stanie hehe hehe ehe "
+        "<html>#{@contact.name}<br>"
       else
         "<html><b>#{@contact.name}</b>#{(status.empty? ? '' : "<br><i>#{status}</i>")}"
       end

@@ -81,6 +81,7 @@ class MainView < ApplicationView
       @main_view_component.set_size(*last_size)
     end
 
+
   end
 
   def unload

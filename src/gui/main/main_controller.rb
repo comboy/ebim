@@ -48,6 +48,11 @@ class MainController < ApplicationController
     show_preferences
   end
 
+  def menu_about_action_performed
+    preferences = AboutController.instance
+    preferences.open
+  end
+
   def toggle_hide_action_performed
     
   end
