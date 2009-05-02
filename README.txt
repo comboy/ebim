@@ -1,5 +1,5 @@
 ebim
-    by Kacper Cie¶la
+    by Kacper Cie¶la 
     https://github.com/comboy/ebim
  
 == DESCRIPTION:
